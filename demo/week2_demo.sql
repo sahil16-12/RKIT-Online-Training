@@ -1,4 +1,3 @@
-
 CREATE DATABASE week2db;
 USE week2db;
 
@@ -103,6 +102,12 @@ BEGIN
 END $$
 DELIMITER ;
 
+CALL get_students();
+
+CALL get_marks(1,@total);
+
+select @total;
+
 -- ================================
 -- Trigger Example
 -- ================================
@@ -145,3 +150,34 @@ WHERE m.score > 80;
 
 -- Using the view
 SELECT * FROM high_scorers;
+
+
+-- ================================
+-- Backup and Restore Examples
+-- ================================
+
+-- Logical Backup using mysqldump (From terminal)
+-- mysqldump -u root -p *** > week2db_backup.sql
+
+-- Restore Backup (from terminal)
+-- mysql -u root -p *** < week2db_backup.sql
+
+-- ================================
+-- EXPLAIN Examples for Query Optimization
+-- ================================
+
+-- Without Index: This will cause a full table scan (type = ALL)
+EXPLAIN SELECT * FROM students WHERE name = 'Alice';
+
+-- Create an index on 'name' column to optimize search
+CREATE INDEX idx_name ON students(name);
+
+-- With Index: Now MySQL can use the index (type = ref)
+EXPLAIN SELECT * FROM students WHERE name = 'Alice';
+
+-- Create another index on 'score' column of marks
+CREATE INDEX idx_score ON marks(score);
+
+-- Query using range search on score (type = range)
+EXPLAIN SELECT * FROM marks WHERE score > 80;
+
