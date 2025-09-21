@@ -181,3 +181,59 @@ CREATE INDEX idx_score ON marks(score);
 -- Query using range search on score (type = range)
 EXPLAIN SELECT * FROM marks WHERE score > 80;
 
+
+-- ================================
+-- Infinite Trigger Prevention Using is_auto Column
+-- ================================
+
+-- Table A with is_auto flag
+CREATE TABLE A (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    is_auto BOOLEAN DEFAULT 0
+);
+
+-- Table B with is_auto flag
+CREATE TABLE B (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    is_auto BOOLEAN DEFAULT 0
+);
+
+DELIMITER $$
+
+-- Trigger: insert into B when a manual row is added to A
+
+CREATE TRIGGER trg_a_insert
+AFTER INSERT ON A
+FOR EACH ROW
+BEGIN
+    IF NEW.is_auto = 0 THEN
+        INSERT INTO B (name, is_auto) VALUES (CONCAT('From A: ', NEW.name), 1);
+    END IF;
+END $$
+
+-- Trigger: insert into A when a manual row is added to B
+
+CREATE TRIGGER trg_b_insert
+AFTER INSERT ON B
+FOR EACH ROW
+BEGIN
+    IF NEW.is_auto = 0 THEN
+        INSERT INTO A (name, is_auto) VALUES (CONCAT('From B: ', NEW.name), 1);
+    END IF;
+END $$
+DELIMITER ;
+
+-- Insert into A (manual, is_auto=0 by default).
+-- This will insert into B (is_auto=1).
+INSERT INTO A (name) VALUES ('Manual Insert A');
+
+-- Insert into B (manual).
+INSERT INTO B (name) VALUES ('Manual Insert B');
+
+-- Check results
+SELECT * FROM A;
+SELECT * FROM B;
+
+
