@@ -237,3 +237,22 @@ SELECT * FROM A;
 SELECT * FROM B;
 
 
+
+-- Trigger to automatically append student name with course name on update student
+
+USE studentdb;
+
+DELIMITER //
+CREATE TRIGGER trg_author_insert
+AFTER UPDATE ON students
+FOR EACH ROW
+BEGIN
+UPDATE COURSES SET course_name = CONCAT(course_name, '-', NEW.name) WHERE course_id = NEW.course_id;
+END //
+
+DELIMITER ;
+
+SELECT * FROM STUDENTS;
+SELECT * FROM COURSES;
+
+UPDATE students set name='sahil' WHERE student_id = 7;
