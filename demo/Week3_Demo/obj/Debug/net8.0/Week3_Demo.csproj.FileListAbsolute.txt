@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week3_Demo\bin\Debug\net8.0\Week3_Demo.exe
+C:\Users\sahil\source\repos\Week3_Demo\bin\Debug\net8.0\Week3_Demo.deps.json
+C:\Users\sahil\source\repos\Week3_Demo\bin\Debug\net8.0\Week3_Demo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week3_Demo\bin\Debug\net8.0\Week3_Demo.dll
+C:\Users\sahil\source\repos\Week3_Demo\bin\Debug\net8.0\Week3_Demo.pdb
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.dll
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\refint\Week3_Demo.dll
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.pdb
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\Week3_Demo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week3_Demo\obj\Debug\net8.0\ref\Week3_Demo.dll

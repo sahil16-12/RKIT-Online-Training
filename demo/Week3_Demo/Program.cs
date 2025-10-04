@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Data;
 using System.IO;
 using System.Text;
@@ -76,7 +76,7 @@ namespace CSharpConceptsDemo
             Console.WriteLine("===== .NET Framework & C# Concepts Demo =====\n");
 
             // 3️⃣ Namespace & Library Usage (.NET library usage)
-            Console.WriteLine("Using .NET Libraries Example — DateTime & Math:");
+
             Console.WriteLine($"Current Time: {DateTime.Now}");
             Console.WriteLine($"Square root of 25 = {Math.Sqrt(25)}");
             Console.WriteLine();
@@ -106,9 +106,9 @@ namespace CSharpConceptsDemo
             table.Columns.Add("Name", typeof(string));
             table.Columns.Add("Age", typeof(int));
 
-            table.Rows.Add(1, "Alice", 25);
-            table.Rows.Add(2, "Bob", 30);
-            table.Rows.Add(3, "Charlie", 22);
+            table.Rows.Add(1, "Sahil", 25);
+            table.Rows.Add(2, "Danish", 30);
+            table.Rows.Add(3, "Hakim", 22);
 
             Console.WriteLine("All Records:");
             foreach (DataRow row in table.Rows)
@@ -124,13 +124,13 @@ namespace CSharpConceptsDemo
 
             Console.WriteLine();
 
-            // 7️⃣ Methods for Manipulation
+            // 7️ Methods for Manipulation
             Console.WriteLine("Methods for Manipulation Example:");
             string employeeSummary = GetEmployeeSummary(emp.Name, table.Rows.Count);
             Console.WriteLine(employeeSummary);
             Console.WriteLine();
 
-            // 8️⃣ Basic File Reading/Writing
+            // 8️ Basic File Reading/Writing
             Console.WriteLine("File Read/Write Demo:");
             string filePath = "EmployeeData.txt";
 
