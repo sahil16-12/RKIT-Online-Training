@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|c:\\users\\sahil\\source\\repos\\week3_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|c:\\users\\sahil\\source\\repos\\week3_assignment\\io\\reportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|solutionrelative:io\\reportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|c:\\users\\sahil\\source\\repos\\week3_assignment\\io\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|solutionrelative:io\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|c:\\users\\sahil\\source\\repos\\week3_assignment\\domain\\bookcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|solutionrelative:domain\\bookcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|c:\\users\\sahil\\source\\repos\\week3_assignment\\week3_assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|solutionrelative:week3_assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|c:\\users\\sahil\\source\\repos\\week3_assignment\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C7D405-99D7-4B9E-8B34-A5AB58CC1F89}|Week3_Assignment.csproj|solutionrelative:domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportWriter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\IO\\ReportWriter.cs",
+              "RelativeDocumentMoniker": "IO\\ReportWriter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\IO\\ReportWriter.cs",
+              "RelativeToolTip": "IO\\ReportWriter.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwv0kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:08:57.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CsvReader.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\IO\\CsvReader.cs",
+              "RelativeDocumentMoniker": "IO\\CsvReader.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\IO\\CsvReader.cs",
+              "RelativeToolTip": "IO\\CsvReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T16:48:25.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookCondition.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Domain\\BookCondition.cs",
+              "RelativeDocumentMoniker": "Domain\\BookCondition.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Domain\\BookCondition.cs",
+              "RelativeToolTip": "Domain\\BookCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T15:32:02.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Domain\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Book.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Domain\\Book.cs",
+              "RelativeToolTip": "Domain\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T15:28:23.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Week3_Assignment.csproj",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Week3_Assignment.csproj",
+              "RelativeDocumentMoniker": "Week3_Assignment.csproj",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Week3_Assignment.csproj",
+              "RelativeToolTip": "Week3_Assignment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-03T15:28:07.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week3_Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T15:26:32.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

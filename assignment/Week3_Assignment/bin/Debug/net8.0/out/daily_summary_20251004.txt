@@ -1,0 +1,15 @@
+Date/time processed: 2025-10-04 14:14:41
+Total returns: 5
+
+Count by condition:
+- Good: 2
+- Damaged: 1
+- New: 1
+- Worn: 1
+
+Top 5 titles by penalty:
+The Catcher in the Rye (20)
+1984 (10)
+The Hobbit (0)
+Dune (0)
+Animal Farm (0)

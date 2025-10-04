@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week3_Assignment\bin\Debug\net8.0\Week3_Assignment.exe
+C:\Users\sahil\source\repos\Week3_Assignment\bin\Debug\net8.0\Week3_Assignment.deps.json
+C:\Users\sahil\source\repos\Week3_Assignment\bin\Debug\net8.0\Week3_Assignment.runtimeconfig.json
+C:\Users\sahil\source\repos\Week3_Assignment\bin\Debug\net8.0\Week3_Assignment.dll
+C:\Users\sahil\source\repos\Week3_Assignment\bin\Debug\net8.0\Week3_Assignment.pdb
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.dll
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\refint\Week3_Assignment.dll
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.pdb
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\Week3_Assignment.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week3_Assignment\obj\Debug\net8.0\ref\Week3_Assignment.dll
