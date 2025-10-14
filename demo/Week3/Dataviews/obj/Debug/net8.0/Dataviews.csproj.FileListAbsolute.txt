@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Dataviews\bin\Debug\net8.0\Dataviews.exe
+C:\Users\sahil\source\repos\Dataviews\bin\Debug\net8.0\Dataviews.deps.json
+C:\Users\sahil\source\repos\Dataviews\bin\Debug\net8.0\Dataviews.runtimeconfig.json
+C:\Users\sahil\source\repos\Dataviews\bin\Debug\net8.0\Dataviews.dll
+C:\Users\sahil\source\repos\Dataviews\bin\Debug\net8.0\Dataviews.pdb
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.dll
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\refint\Dataviews.dll
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.pdb
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\Dataviews.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Dataviews\obj\Debug\net8.0\ref\Dataviews.dll

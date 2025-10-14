@@ -1,0 +1,17 @@
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.csproj.AssemblyReference.cache
+C:\Users\sahil\source\repos\NewtonSoftDemo\bin\Debug\net8.0\NewtonSoftDemo.exe
+C:\Users\sahil\source\repos\NewtonSoftDemo\bin\Debug\net8.0\NewtonSoftDemo.deps.json
+C:\Users\sahil\source\repos\NewtonSoftDemo\bin\Debug\net8.0\NewtonSoftDemo.runtimeconfig.json
+C:\Users\sahil\source\repos\NewtonSoftDemo\bin\Debug\net8.0\NewtonSoftDemo.dll
+C:\Users\sahil\source\repos\NewtonSoftDemo\bin\Debug\net8.0\NewtonSoftDemo.pdb
+C:\Users\sahil\source\repos\NewtonSoftDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSo.994947A1.Up2Date
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.dll
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\refint\NewtonSoftDemo.dll
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.pdb
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\NewtonSoftDemo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\NewtonSoftDemo\obj\Debug\net8.0\ref\NewtonSoftDemo.dll
