@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEDA406-8D3C-4785-B4EE-F6B890551605}|ExtensionMethodDemo\\ExtensionMethodDemo.csproj|c:\\users\\sahil\\source\\repos\\week4_demo\\extensionmethoddemo\\orderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEDA406-8D3C-4785-B4EE-F6B890551605}|ExtensionMethodDemo\\ExtensionMethodDemo.csproj|solutionrelative:extensionmethoddemo\\orderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEDA406-8D3C-4785-B4EE-F6B890551605}|ExtensionMethodDemo\\ExtensionMethodDemo.csproj|c:\\users\\sahil\\source\\repos\\week4_demo\\extensionmethoddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEDA406-8D3C-4785-B4EE-F6B890551605}|ExtensionMethodDemo\\ExtensionMethodDemo.csproj|solutionrelative:extensionmethoddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7F0DB2-2652-42AD-B5AE-1EE5CA74DDE3}|LambdaDemo\\LambdaDemo.csproj|c:\\users\\sahil\\source\\repos\\week4_demo\\lambdademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7F0DB2-2652-42AD-B5AE-1EE5CA74DDE3}|LambdaDemo\\LambdaDemo.csproj|solutionrelative:lambdademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5806BB79-004C-4214-8D52-1304356D7FB0}|Json_XML_Serilization\\Json_XML_Serilization.csproj|c:\\users\\sahil\\source\\repos\\week4_demo\\json_xml_serilization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5806BB79-004C-4214-8D52-1304356D7FB0}|Json_XML_Serilization\\Json_XML_Serilization.csproj|solutionrelative:json_xml_serilization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202F3E20-E1EF-4496-85BC-BE1DE7D1ADD5}|DelegateDemo\\DelegateDemo.csproj|c:\\users\\sahil\\source\\repos\\week4_demo\\delegatedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202F3E20-E1EF-4496-85BC-BE1DE7D1ADD5}|DelegateDemo\\DelegateDemo.csproj|solutionrelative:delegatedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061E3099-86C8-49C7-BC6A-E7A6FBD0572D}|FileSystemDemo\\FileSystemDemo.csproj|c:\\users\\sahil\\source\\repos\\week4_demo\\filesystemdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061E3099-86C8-49C7-BC6A-E7A6FBD0572D}|FileSystemDemo\\FileSystemDemo.csproj|solutionrelative:filesystemdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\ExtensionMethodDemo\\OrderExtensions.cs",
+              "RelativeDocumentMoniker": "ExtensionMethodDemo\\OrderExtensions.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\ExtensionMethodDemo\\OrderExtensions.cs",
+              "RelativeToolTip": "ExtensionMethodDemo\\OrderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T08:36:01.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\ExtensionMethodDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ExtensionMethodDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\ExtensionMethodDemo\\Program.cs",
+              "RelativeToolTip": "ExtensionMethodDemo\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:52:57.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\DelegateDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DelegateDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\DelegateDemo\\Program.cs",
+              "RelativeToolTip": "DelegateDemo\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA9wBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:40:14.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\LambdaDemo\\Program.cs",
+              "RelativeDocumentMoniker": "LambdaDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\LambdaDemo\\Program.cs",
+              "RelativeToolTip": "LambdaDemo\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:27:51.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\Json_XML_Serilization\\Program.cs",
+              "RelativeDocumentMoniker": "Json_XML_Serilization\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\Json_XML_Serilization\\Program.cs",
+              "RelativeToolTip": "Json_XML_Serilization\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T12:34:38.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\FileSystemDemo\\Program.cs",
+              "RelativeDocumentMoniker": "FileSystemDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Demo\\FileSystemDemo\\Program.cs",
+              "RelativeToolTip": "FileSystemDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:46:43.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

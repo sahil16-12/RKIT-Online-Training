@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\bin\Debug\net8.0\FileSystemDemo.exe
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\bin\Debug\net8.0\FileSystemDemo.deps.json
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\bin\Debug\net8.0\FileSystemDemo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\bin\Debug\net8.0\FileSystemDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\bin\Debug\net8.0\FileSystemDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\refint\FileSystemDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\FileSystemDemo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Demo\FileSystemDemo\obj\Debug\net8.0\ref\FileSystemDemo.dll

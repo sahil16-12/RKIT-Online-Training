@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.exe
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.deps.json
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\refint\ExtensionMethodDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Demo\ExtensionMethodDemo\obj\Debug\net8.0\ref\ExtensionMethodDemo.dll

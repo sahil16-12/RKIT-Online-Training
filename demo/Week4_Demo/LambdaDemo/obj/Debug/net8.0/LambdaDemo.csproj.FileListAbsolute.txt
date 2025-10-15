@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\bin\Debug\net8.0\LambdaDemo.exe
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\bin\Debug\net8.0\LambdaDemo.deps.json
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\bin\Debug\net8.0\LambdaDemo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\bin\Debug\net8.0\LambdaDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\bin\Debug\net8.0\LambdaDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\refint\LambdaDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\LambdaDemo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Demo\LambdaDemo\obj\Debug\net8.0\ref\LambdaDemo.dll

@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\bin\Debug\net8.0\Json_XML_Serilization.exe
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\bin\Debug\net8.0\Json_XML_Serilization.deps.json
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\bin\Debug\net8.0\Json_XML_Serilization.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\bin\Debug\net8.0\Json_XML_Serilization.dll
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\bin\Debug\net8.0\Json_XML_Serilization.pdb
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.dll
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\refint\Json_XML_Serilization.dll
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.pdb
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\Json_XML_Serilization.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Demo\Json_XML_Serilization\obj\Debug\net8.0\ref\Json_XML_Serilization.dll

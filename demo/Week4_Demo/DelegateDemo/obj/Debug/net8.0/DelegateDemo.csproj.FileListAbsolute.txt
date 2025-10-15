@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\bin\Debug\net8.0\DelegateDemo.exe
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\bin\Debug\net8.0\DelegateDemo.deps.json
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\bin\Debug\net8.0\DelegateDemo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\bin\Debug\net8.0\DelegateDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\bin\Debug\net8.0\DelegateDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\refint\DelegateDemo.dll
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\DelegateDemo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Demo\DelegateDemo\obj\Debug\net8.0\ref\DelegateDemo.dll

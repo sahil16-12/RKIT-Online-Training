@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>101</Id>
+  <Name>Gaming Mouse</Name>
+  <Price>59.99</Price>
+  <CreatedOn>2025-10-14T18:05:16.7341228+05:30</CreatedOn>
+</Product>
