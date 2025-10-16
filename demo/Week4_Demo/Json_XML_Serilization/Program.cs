@@ -5,19 +5,11 @@ using System.Xml.Serialization;
 
 namespace JsonXmlDemo;
 
-public class Product
-{
-    public int Id { get; set; }
-    public string Name { get; set; } = "";
-    public decimal Price { get; set; }
-    public DateTime CreatedOn { get; set; }
-}
-
 class Demo
 {
     static void Main()
     {
-        var prod = new Product
+        Product prod = new Product
         {
             Id = 101,
             Name = "Gaming Mouse",
@@ -29,10 +21,11 @@ class Demo
         string xmlFile = "product.xml";
 
         SerializeToJson(prod, jsonFile);
-        Product? fromJson = DeserializeFromJson(jsonFile);
+        Product fromJson = DeserializeFromJson(jsonFile);
+        //Product n = null;
 
         SerializeToXml(prod, xmlFile);
-        Product? fromXml = DeserializeFromXml(xmlFile);
+        Product fromXml = DeserializeFromXml(xmlFile);
 
         Console.WriteLine("\nFrom JSON: " + (fromJson != null ? $"{fromJson.Name}, {fromJson.Price}" : "null"));
         Console.WriteLine("From XML: " + (fromXml != null ? $"{fromXml.Name}, {fromXml.Price}" : "null"));
@@ -40,7 +33,7 @@ class Demo
 
     static void SerializeToJson(Product p, string path)
     {
-        var opts = new JsonSerializerOptions { WriteIndented = true };
+        JsonSerializerOptions opts = new JsonSerializerOptions { WriteIndented = true };
         string json = JsonSerializer.Serialize(p, opts);
         File.WriteAllText(path, json);
         Console.WriteLine($"Wrote JSON to {path}");
@@ -56,8 +49,8 @@ class Demo
 
     static void SerializeToXml(Product p, string path)
     {
-        var xmlSer = new XmlSerializer(typeof(Product));
-        using var writer = File.CreateText(path);
+        XmlSerializer xmlSer = new XmlSerializer(typeof(Product));
+        using StreamWriter writer = File.CreateText(path);
         xmlSer.Serialize(writer, p);
         Console.WriteLine($"Wrote XML to {path}");
     }
@@ -66,8 +59,8 @@ class Demo
     {
         if (!File.Exists(path)) return null;
 
-        var xmlSer = new XmlSerializer(typeof(Product));
-        using var reader = File.OpenText(path);
+        XmlSerializer xmlSer = new XmlSerializer(typeof(Product));
+        using StreamReader reader = File.OpenText(path);
         return (Product?)xmlSer.Deserialize(reader);
     }
 }

@@ -22,31 +22,31 @@ class Program
         DirectoryOperations(folderPath);
     }
 
-    // 1️⃣ Create and write text into a file
+    // 1️ Create and write text into a file
     static void CreateAndWriteFile(string path)
     {
         string[] lines =
         [
-            "Hello from C# 😄",
+            "Hello from C#",
             "This is a file system demo.",
             "We'll perform basic file operations here."
         ];
 
         File.WriteAllLines(path, lines);
-        Console.WriteLine($"✅ File created at: {Path.GetFullPath(path)}");
+        Console.WriteLine($" File created at: {Path.GetFullPath(path)}");
     }
 
-    // 2️⃣ Read file content
+    // 2️ Read file content
     static void ReadFile(string path)
     {
         if (!File.Exists(path))
         {
-            Console.WriteLine("⚠️ File not found for reading!");
+            Console.WriteLine(" File not found for reading!");
             return;
         }
 
-        Console.WriteLine("\n📖 Reading file content:");
-        foreach (var line in File.ReadAllLines(path))
+        Console.WriteLine("\nReading file content:");
+        foreach (string line in File.ReadAllLines(path))
         {
             Console.WriteLine(line);
         }
@@ -56,23 +56,24 @@ class Program
     static void AppendToFile(string path)
     {
         File.AppendAllText(path, "\nAppended line at: " + DateTime.Now);
-        Console.WriteLine("\n✏️ Appended new content to file.");
+        Console.WriteLine("\n Appended new content to file.");
     }
 
-    // 4️⃣ Show file information (metadata)
+    // 4️ Show file information (metadata)
     static void ShowFileInfo(string path)
     {
         FileInfo info = new(path);
-
-        Console.WriteLine("\n📁 File Info:");
+        Console.WriteLine("\n File Info:");
         Console.WriteLine($"Name: {info.Name}");
         Console.WriteLine($"Extension: {info.Extension}");
         Console.WriteLine($"Size: {info.Length} bytes");
         Console.WriteLine($"Created: {info.CreationTime}");
         Console.WriteLine($"Last Modified: {info.LastWriteTime}");
+        
+        //// Windows HOME edition doesnt info.Encrypt().
     }
 
-    // 5️⃣ Copy, move, and delete operations
+    // 5️ Copy, move, and delete operations
     static void CopyAndMoveFile(string path, string folderPath)
     {
         string copyPath = Path.Combine(folderPath, "sample_copy.txt");
@@ -80,37 +81,37 @@ class Program
 
         // Copy file (overwrite if already exists)
         File.Copy(path, copyPath, overwrite: true);
-        Console.WriteLine("\n📄 File copied successfully.");
+        Console.WriteLine("\n File copied successfully.");
 
         // Move (rename) file
         if (File.Exists(movedPath)) File.Delete(movedPath); // avoid name clash
         File.Move(copyPath, movedPath);
-        Console.WriteLine("📦 File moved successfully.");
+        Console.WriteLine(" File moved successfully.");
 
         // Delete the moved file
         File.Delete(movedPath);
-        Console.WriteLine("🗑️  Moved file deleted.");
+        Console.WriteLine(" Moved file deleted.");
     }
 
-    // 6️⃣ Directory creation, listing, and deletion
+    // 6️ Directory creation, listing, and deletion
     static void DirectoryOperations(string folderPath)
     {
         string subFolder = Path.Combine(folderPath, "SubFolder");
         Directory.CreateDirectory(subFolder);
 
-        Console.WriteLine("\n📂 Directory Operations:");
+        Console.WriteLine("\n Directory Operations:");
         Console.WriteLine("Created subfolder: " + subFolder);
 
         // List all files and folders
         Console.WriteLine("\nContents of main folder:");
-        foreach (var file in Directory.GetFiles(folderPath))
+        foreach (String file in Directory.GetFiles(folderPath))
             Console.WriteLine("File: " + file);
 
-        foreach (var dir in Directory.GetDirectories(folderPath))
+        foreach (String dir in Directory.GetDirectories(folderPath))
             Console.WriteLine("Folder: " + dir);
 
         // Cleanup demo folders (optional)
         Directory.Delete(folderPath, recursive: true);
-        Console.WriteLine("\n🧹 Deleted demo folder and its contents.");
+        Console.WriteLine("\n Deleted demo folder and its contents.");
     }
 }

@@ -2,12 +2,6 @@
 
 namespace ExtensionMethodDemo
 {
-    public class Order
-    {
-        public int Id { get; set; }
-        public string Customer { get; set; }
-        public decimal Amount { get; set; }
-    }
 
     class Program
     {
@@ -31,9 +25,9 @@ namespace ExtensionMethodDemo
             Console.WriteLine($"Average order amount: ₹{avg:N2}");
 
             // Use extension: filter high-value orders
-            var highOrders = orders.OrdersAbove(1000m);
+            IEnumerable<Order> highOrders = orders.OrdersAbove(1000m);
             Console.WriteLine("High-value orders (>1000):");
-            foreach (var o in highOrders)
+            foreach (Order o in highOrders)
             {
                 Console.WriteLine($"  Order #{o.Id}, Customer: {o.Customer}, Amount: ₹{o.Amount:N2}");
             }

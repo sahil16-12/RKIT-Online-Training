@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\bin\Debug\net8.0\Generic_Methods_Collections_Demo.exe
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\bin\Debug\net8.0\Generic_Methods_Collections_Demo.deps.json
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\bin\Debug\net8.0\Generic_Methods_Collections_Demo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\bin\Debug\net8.0\Generic_Methods_Collections_Demo.dll
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\bin\Debug\net8.0\Generic_Methods_Collections_Demo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.dll
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\refint\Generic_Methods_Collections_Demo.dll
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.pdb
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\Generic_Methods_Collections_Demo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Demo\Generic_Methods_Collections_Demo\obj\Debug\net8.0\ref\Generic_Methods_Collections_Demo.dll
