@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.cli\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.cli\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\summary\\summarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\summary\\summarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\writers\\xmlreportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\writers\\xmlreportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\samples\\in\\nested\\books-b.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\samples\\in\\nested\\books-b.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\samples\\in\\books-a.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\samples\\in\\books-a.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\extensions\\bookextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\extensions\\bookextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\plugins\\importerdiscovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\plugins\\importerdiscovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\collections\\bookset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\collections\\bookset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\writers\\textreportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\writers\\textreportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\writers\\ireportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\writers\\ireportwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\importers\\jsonbookimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\importers\\jsonbookimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\importers\\csvbookimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\importers\\csvbookimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\ingestion.pipeline\\importers\\fileimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\ingestion.pipeline\\importers\\fileimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|c:\\users\\sahil\\source\\repos\\week4_assignment\\assignment_w4_a\\samples\\in\\nested\\books-b.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{93EDBE98-3EB0-4A21-8F7C-1ED22428DDAD}|Assignment_W4_A\\Assignment_W4_A.csproj|solutionrelative:assignment_w4_a\\samples\\in\\nested\\books-b.json||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XmlReportWriter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Writers\\XmlReportWriter.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Writers\\XmlReportWriter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Writers\\XmlReportWriter.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Writers\\XmlReportWriter.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:48:40.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Extensions\\BookExtensions.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Extensions\\BookExtensions.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Extensions\\BookExtensions.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Extensions\\BookExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:48:51.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookSet.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Collections\\BookSet.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Collections\\BookSet.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Collections\\BookSet.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Collections\\BookSet.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:49:00.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Models\\Book.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Models\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:45:28.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImporterDiscovery.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Plugins\\ImporterDiscovery.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Plugins\\ImporterDiscovery.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Plugins\\ImporterDiscovery.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Plugins\\ImporterDiscovery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:49:10.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Options.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Cli\\Options.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Cli\\Options.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Cli\\Options.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Cli\\Options.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:50:57.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Cli\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Cli\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Cli\\Program.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Cli\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:33:44.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "books-a.csv",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Samples\\in\\books-a.csv",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Samples\\in\\books-a.csv",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Samples\\in\\books-a.csv",
+              "RelativeToolTip": "Assignment_W4_A\\Samples\\in\\books-a.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-10-24T08:52:09.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Summary\\SummaryDto.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Summary\\SummaryDto.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Summary\\SummaryDto.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Summary\\SummaryDto.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA+wDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:49:18.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "books-b.json",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "RelativeToolTip": "Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T10:57:42.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TextReportWriter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Writers\\TextReportWriter.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Writers\\TextReportWriter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Writers\\TextReportWriter.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Writers\\TextReportWriter.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:48:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IReportWriter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Writers\\IReportWriter.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Writers\\IReportWriter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Writers\\IReportWriter.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Writers\\IReportWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:48:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JsonBookImporter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Importers\\JsonBookImporter.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Importers\\JsonBookImporter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Importers\\JsonBookImporter.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Importers\\JsonBookImporter.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:45.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CsvBookImporter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Importers\\CsvBookImporter.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Importers\\CsvBookImporter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Importers\\CsvBookImporter.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Importers\\CsvBookImporter.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileImporter.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Importers\\FileImporter.cs",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Ingestion.Pipeline\\Importers\\FileImporter.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Ingestion.Pipeline\\Importers\\FileImporter.cs",
+              "RelativeToolTip": "Assignment_W4_A\\Ingestion.Pipeline\\Importers\\FileImporter.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:14.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-24T08:53:16.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "books-b.json",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "RelativeDocumentMoniker": "Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week4_Assignment\\Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "RelativeToolTip": "Assignment_W4_A\\Samples\\in\\nested\\books-b.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T08:52:27.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "GeneratedAt": "2025-10-24T11:09:51.388309Z",
+  "TotalBooks": 3,
+  "ByGenre": {
+    "Fiction": 1,
+    "Non-Fiction": 1,
+    "SciFi": 1
+  },
+  "ByGenreList": [
+    {
+      "Genre": "Fiction",
+      "Count": 1
+    },
+    {
+      "Genre": "Non-Fiction",
+      "Count": 1
+    },
+    {
+      "Genre": "SciFi",
+      "Count": 1
+    }
+  ],
+  "TopPenaltyTitles": [
+    "To Kill a Mockingbird",
+    "A Tale of Two Cities",
+    "Nested Book"
+  ]
+}

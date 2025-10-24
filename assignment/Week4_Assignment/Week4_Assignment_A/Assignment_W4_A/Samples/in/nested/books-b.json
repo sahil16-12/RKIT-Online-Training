@@ -1,0 +1,11 @@
+﻿[
+  {
+    "ISBN": "978-3",
+    "Title": "Nested Book",
+    "Author": "A. Author",
+    "Genre": "SciFi",
+    "Price": 15.0,
+    "Penalty": 0.0,
+    "Published": "2021-05-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,11 @@
+Book Import Summary
+===================
+TotalBooks: 3
+By Genre:
+  Fiction: 1
+  Non-Fiction: 1
+  SciFi: 1
+Top penalty books:
+  To Kill a Mockingbird (₹ 1.50)
+  A Tale of Two Cities (₹ 0.00)
+  Nested Book (₹ 0.00)

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Assignment_W4_A/1.0.0": {
+        "runtime": {
+          "Assignment_W4_A.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment_W4_A/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

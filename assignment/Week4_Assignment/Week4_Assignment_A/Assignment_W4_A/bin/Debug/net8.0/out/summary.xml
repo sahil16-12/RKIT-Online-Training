@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSummaryDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SummaryDto>
+    <GeneratedAt>2025-10-24T11:09:51.388309Z</GeneratedAt>
+    <TotalBooks>3</TotalBooks>
+    <Genres>
+      <GenreCountEntry Genre="Fiction" Count="1" />
+      <GenreCountEntry Genre="Non-Fiction" Count="1" />
+      <GenreCountEntry Genre="SciFi" Count="1" />
+    </Genres>
+    <TopPenaltyTitles>
+      <string>To Kill a Mockingbird</string>
+      <string>A Tale of Two Cities</string>
+      <string>Nested Book</string>
+    </TopPenaltyTitles>
+  </SummaryDto>
+</ArrayOfSummaryDto>

@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\bin\Debug\net8.0\Assignment_W4_A.exe
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\bin\Debug\net8.0\Assignment_W4_A.deps.json
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\bin\Debug\net8.0\Assignment_W4_A.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\bin\Debug\net8.0\Assignment_W4_A.dll
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\bin\Debug\net8.0\Assignment_W4_A.pdb
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.dll
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\refint\Assignment_W4_A.dll
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.pdb
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\Assignment_W4_A.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Assignment\Assignment_W4_A\obj\Debug\net8.0\ref\Assignment_W4_A.dll
