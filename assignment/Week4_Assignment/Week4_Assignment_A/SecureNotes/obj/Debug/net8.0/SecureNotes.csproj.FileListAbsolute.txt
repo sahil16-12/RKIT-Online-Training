@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\bin\Debug\net8.0\SecureNotes.exe
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\bin\Debug\net8.0\SecureNotes.deps.json
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\bin\Debug\net8.0\SecureNotes.runtimeconfig.json
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\bin\Debug\net8.0\SecureNotes.dll
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\bin\Debug\net8.0\SecureNotes.pdb
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.dll
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\refint\SecureNotes.dll
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.pdb
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\SecureNotes.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week4_Assignment\SecureNotes\obj\Debug\net8.0\ref\SecureNotes.dll
