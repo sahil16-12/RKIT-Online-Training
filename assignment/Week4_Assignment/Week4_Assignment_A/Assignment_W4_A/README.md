@@ -47,7 +47,7 @@ Example (run directly):
 
 ```powershell
 # Run the CLI, pointing it at the included sample input folder and a new output directory
-dotnet run --project .\Ingestion.Cli\Ingestion.Cli.csproj -- --source .\Samples\in --output .\out
+dotnet run
 ```
 
 ## Sample usage scenarios
@@ -56,6 +56,12 @@ dotnet run --project .\Ingestion.Cli\Ingestion.Cli.csproj -- --source .\Samples\
 
 ```powershell
 dotnet run
+```
+
+- Run using --dry-run option:
+
+```powershell
+dotnet run -- --dry-run
 ```
 
 After running, check the `out` directory for generated reports. The pipeline includes `TextReportWriter` and `XmlReportWriter` implementations, so expect at least `.txt` and/or `.xml` outputs depending on configuration.
