@@ -1,0 +1,14 @@
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\bin\Debug\net8.0\LINQ demo.exe
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\bin\Debug\net8.0\LINQ demo.deps.json
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\bin\Debug\net8.0\LINQ demo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\bin\Debug\net8.0\LINQ demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\bin\Debug\net8.0\LINQ demo.pdb
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\refint\LINQ demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.pdb
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\LINQ demo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week5_Demo\LINQ demo\obj\Debug\net8.0\ref\LINQ demo.dll

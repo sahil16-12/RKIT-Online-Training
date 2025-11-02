@@ -1,0 +1,17 @@
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\bin\Debug\net8.0\Dynamic type demo.exe
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\bin\Debug\net8.0\Dynamic type demo.deps.json
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\bin\Debug\net8.0\Dynamic type demo.runtimeconfig.json
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\bin\Debug\net8.0\Dynamic type demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\bin\Debug\net8.0\Dynamic type demo.pdb
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.AssemblyInfoInputs.cache
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.AssemblyInfo.cs
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.csproj.CoreCompileInputs.cache
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\refint\Dynamic type demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.pdb
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.genruntimeconfig.cache
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\ref\Dynamic type demo.dll
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic type demo.csproj.AssemblyReference.cache
+C:\Users\sahil\source\repos\Week5_Demo\Dynamic type demo\obj\Debug\net8.0\Dynamic .DD1CAC01.Up2Date

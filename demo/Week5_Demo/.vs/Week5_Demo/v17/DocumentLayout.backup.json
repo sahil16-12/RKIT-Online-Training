@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\crud using ormlite demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|solutionrelative:crud using ormlite demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\crud using ormlite demo\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|solutionrelative:crud using ormlite demo\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\cryptography demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|solutionrelative:cryptography demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\crud using ormlite demo\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|solutionrelative:crud using ormlite demo\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\crud using ormlite demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51923B9D-5515-4F44-8208-0D202A1438EA}|CRUD using ormlite demo\\CRUD using ormlite demo.csproj|solutionrelative:crud using ormlite demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E66444D-D66F-4EC6-B659-EB0588170DA8}|Dynamic type demo\\Dynamic type demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\dynamic type demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E66444D-D66F-4EC6-B659-EB0588170DA8}|Dynamic type demo\\Dynamic type demo.csproj|solutionrelative:dynamic type demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E66444D-D66F-4EC6-B659-EB0588170DA8}|Dynamic type demo\\Dynamic type demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\dynamic type demo\\services\\dynamicoperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E66444D-D66F-4EC6-B659-EB0588170DA8}|Dynamic type demo\\Dynamic type demo.csproj|solutionrelative:dynamic type demo\\services\\dynamicoperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E66444D-D66F-4EC6-B659-EB0588170DA8}|Dynamic type demo\\Dynamic type demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\dynamic type demo\\services\\jsondynamicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E66444D-D66F-4EC6-B659-EB0588170DA8}|Dynamic type demo\\Dynamic type demo.csproj|solutionrelative:dynamic type demo\\services\\jsondynamicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\cryptography demo\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|solutionrelative:cryptography demo\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\cryptography demo\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|solutionrelative:cryptography demo\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\cryptography demo\\services\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C98372-4EBE-4B38-A30B-95F505AB677E}|Cryptography Demo\\Cryptography Demo.csproj|solutionrelative:cryptography demo\\services\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E988ADE7-4558-41DA-8DF0-7E8D55E703BF}|LINQ demo\\LINQ demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\linq demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E988ADE7-4558-41DA-8DF0-7E8D55E703BF}|LINQ demo\\LINQ demo.csproj|solutionrelative:linq demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E988ADE7-4558-41DA-8DF0-7E8D55E703BF}|LINQ demo\\LINQ demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\linq demo\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E988ADE7-4558-41DA-8DF0-7E8D55E703BF}|LINQ demo\\LINQ demo.csproj|solutionrelative:linq demo\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E988ADE7-4558-41DA-8DF0-7E8D55E703BF}|LINQ demo\\LINQ demo.csproj|c:\\users\\sahil\\source\\repos\\week5_demo\\linq demo\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E988ADE7-4558-41DA-8DF0-7E8D55E703BF}|LINQ demo\\LINQ demo.csproj|solutionrelative:linq demo\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD using ormlite demo\\appsettings.json",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\appsettings.json",
+              "RelativeToolTip": "CRUD using ormlite demo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-30T12:13:30.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "CRUD using ormlite demo\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\Models\\Employee.cs",
+              "RelativeToolTip": "CRUD using ormlite demo\\Models\\Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T12:12:57.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CRUD using ormlite demo\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "CRUD using ormlite demo\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T12:12:47.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD using ormlite demo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\CRUD using ormlite demo\\Program.cs",
+              "RelativeToolTip": "CRUD using ormlite demo\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T12:08:42.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DynamicOperationService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Dynamic type demo\\Services\\DynamicOperationService.cs",
+              "RelativeDocumentMoniker": "Dynamic type demo\\Services\\DynamicOperationService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Dynamic type demo\\Services\\DynamicOperationService.cs",
+              "RelativeToolTip": "Dynamic type demo\\Services\\DynamicOperationService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:25:59.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonDynamicService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Dynamic type demo\\Services\\JsonDynamicService.cs",
+              "RelativeDocumentMoniker": "Dynamic type demo\\Services\\JsonDynamicService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Dynamic type demo\\Services\\JsonDynamicService.cs",
+              "RelativeToolTip": "Dynamic type demo\\Services\\JsonDynamicService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:25:50.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Dynamic type demo\\Program.cs",
+              "RelativeDocumentMoniker": "Dynamic type demo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Dynamic type demo\\Program.cs",
+              "RelativeToolTip": "Dynamic type demo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:11:57.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Cryptography Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Program.cs",
+              "RelativeToolTip": "Cryptography Demo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:09:31.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InputValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Services\\InputValidator.cs",
+              "RelativeDocumentMoniker": "Cryptography Demo\\Services\\InputValidator.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Services\\InputValidator.cs",
+              "RelativeToolTip": "Cryptography Demo\\Services\\InputValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:22:47.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Cryptography Demo\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Services\\PasswordService.cs",
+              "RelativeToolTip": "Cryptography Demo\\Services\\PasswordService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:22:39.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "Cryptography Demo\\Services\\EncryptionService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\Cryptography Demo\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "Cryptography Demo\\Services\\EncryptionService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:22:27.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\LINQ demo\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "LINQ demo\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\LINQ demo\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "LINQ demo\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwF4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:02:15.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\LINQ demo\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "LINQ demo\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\LINQ demo\\Models\\Employee.cs",
+              "RelativeToolTip": "LINQ demo\\Models\\Employee.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:00:46.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\LINQ demo\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ demo\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\Week5_Demo\\LINQ demo\\Program.cs",
+              "RelativeToolTip": "LINQ demo\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:59:53.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
