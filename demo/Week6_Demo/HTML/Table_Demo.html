@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Table Demo</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    caption {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Exam Scores</caption>
+    <tr>
+      <th rowspan="2" scope="col">Name</th>
+      <th colspan="2" scope="col">Subjects</th>
+    </tr>
+    <tr>
+      <th scope="col">Math</th>
+      <th scope="col">Science</th>
+    </tr>
+    <tr>
+      <th scope="row">Sahil</th>
+      <td>90</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <th scope="row">Hakim</th>
+      <td>95</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th scope="row">Sameed</th>
+      <td>88</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+</body>
+</html>

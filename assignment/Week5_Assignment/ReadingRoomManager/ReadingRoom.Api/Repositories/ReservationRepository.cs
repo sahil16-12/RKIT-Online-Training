@@ -57,16 +57,5 @@ namespace ReadingRoom.Api.Repositories
             }
         }
 
-        /// <summary>
-        /// Finds reservations that overlap with a given time range.
-        /// </summary>
-        public List<Reservation> GetConflictingReservations(int roomId, DateTime start, DateTime end)
-        {
-            using (IDbConnection db = _connectionFactory.Open())
-            {
-                return db.Select<Reservation>(x => x.RoomId == roomId &&
-                                                   ((x.Start < end) && (x.End > start)));
-            }
-        }
     }
 }

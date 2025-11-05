@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors & Specificity</title>
+  <style>
+    /* Element Selector */
+    p {
+      color: blue;
+      font-size: 18px;
+    }
+
+    /* Class Selector */
+    .highlight {
+      color: green;
+      background-color: #f0f0f0;
+    }
+
+    /* ID Selector */
+    #special {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* Attribute Selector */
+    input[type="text"] {
+      border: 2px solid purple;
+      padding: 5px;
+    }
+
+    /* Example of Specificity */
+    p.highlight#special {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title">CSS Selectors Demo</h1>
+
+  <p>This is a normal paragraph (Element Selector applied).</p>
+
+  <p class="highlight">This paragraph has a class applied.</p>
+
+  <p id="special" class="highlight">This paragraph has both class and ID — ID wins (Specificity demo).</p>
+
+  <input type="text" placeholder="Enter your name">
+  <input type="email" placeholder="Enter your email">
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox & Grid Demo</title>
+  <style>
+    /* Flexbox Example */
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #e0f7fa;
+      height: 150px;
+      border: 2px solid #00796b;
+      margin-bottom: 20px;
+    }
+
+    .flex-item {
+      background-color: #26a69a;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    /* Grid Example */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background-color: #f3e5f5;
+      padding: 10px;
+      border: 2px solid #6a1b9a;
+    }
+
+    .grid-item {
+      background-color: #ab47bc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🎯 Flexbox Example</h2>
+  <div class="flex-container">
+    <div class="flex-item">Box 1</div>
+    <div class="flex-item">Box 2</div>
+    <div class="flex-item">Box 3</div>
+  </div>
+
+  <h2>🧱 CSS Grid Example</h2>
+  <div class="grid-container">
+    <div class="grid-item">Item 1</div>
+    <div class="grid-item">Item 2</div>
+    <div class="grid-item">Item 3</div>
+    <div class="grid-item">Item 4</div>
+    <div class="grid-item">Item 5</div>
+    <div class="grid-item">Item 6</div>
+  </div>
+</body>
+</html>

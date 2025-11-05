@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\datatableanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\datatableanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\roomanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\roomanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\data\\sampledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\data\\sampledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\models\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +31,16 @@
       "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|solutionrelative:readingroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.analytics\\readingroom.analytics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08A6874E-4360-446D-8C1C-A6F2F132C838}|ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj|solutionrelative:readingroom.analytics\\readingroom.analytics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}|ReadingRoom.Api\\ReadingRoom.Api.csproj|c:\\users\\sahil\\source\\repos\\readingroommanager\\readingroom.api\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,76 +58,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\DataSeeder.cs*",
-              "RelativeToolTip": "ReadingRoom.Analytics\\DataSeeder.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwB8AAAA3AAAAAAAAAA==",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ReadingRoom.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ReadingRoom.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T07:21:08.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Services\\AnalyticsService.cs",
+              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\Services\\AnalyticsService.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Services\\AnalyticsService.cs",
+              "RelativeToolTip": "ReadingRoom.Analytics\\Services\\AnalyticsService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwKwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:47:50.875Z",
+              "WhenOpened": "2025-11-05T06:12:11.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataTableAnalytics.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\DataTableAnalytics.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\DataTableAnalytics.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\DataTableAnalytics.cs*",
-              "RelativeToolTip": "ReadingRoom.Analytics\\DataTableAnalytics.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:47:27.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoomAnalytics.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\RoomAnalytics.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\RoomAnalytics.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\RoomAnalytics.cs*",
-              "RelativeToolTip": "ReadingRoom.Analytics\\RoomAnalytics.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:46:29.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Program.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Program.cs",
-              "RelativeToolTip": "ReadingRoom.Api\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Program.cs",
+              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Program.cs",
+              "RelativeToolTip": "ReadingRoom.Analytics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:40:04.09Z",
+              "WhenOpened": "2025-11-05T06:10:42.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
-              "RelativeToolTip": "ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:59:53.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RoomRepository.cs",
               "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Repositories\\RoomRepository.cs",
               "RelativeDocumentMoniker": "ReadingRoom.Api\\Repositories\\RoomRepository.cs",
@@ -131,25 +113,11 @@
               "RelativeToolTip": "ReadingRoom.Api\\Repositories\\RoomRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:59:43.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T11:59:43.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Program.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\Program.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Program.cs*",
-              "RelativeToolTip": "ReadingRoom.Analytics\\Program.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvwsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:54:22.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Data\\DbConnectionFactory.cs",
               "RelativeDocumentMoniker": "ReadingRoom.Api\\Data\\DbConnectionFactory.cs",
@@ -157,12 +125,23 @@
               "RelativeToolTip": "ReadingRoom.Api\\Data\\DbConnectionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T12:00:04.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T12:00:04.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "ReadingRoom.Api\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\Reservation.cs",
+              "RelativeToolTip": "ReadingRoom.Api\\Models\\Reservation.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:59:20.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReservationStatus.cs",
               "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\ReservationStatus.cs",
               "RelativeDocumentMoniker": "ReadingRoom.Api\\Models\\ReservationStatus.cs",
@@ -170,34 +149,67 @@
               "RelativeToolTip": "ReadingRoom.Api\\Models\\ReservationStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:59:30.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T11:59:30.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "ReadingRoom.Api\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\Reservation.cs",
-              "RelativeToolTip": "ReadingRoom.Api\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:59:20.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\Room.cs",
               "RelativeDocumentMoniker": "ReadingRoom.Api\\Models\\Room.cs",
               "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Models\\Room.cs",
               "RelativeToolTip": "ReadingRoom.Api\\Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:59:09.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T11:59:09.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SampleData.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Data\\SampleData.cs",
+              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\Data\\SampleData.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\Data\\SampleData.cs",
+              "RelativeToolTip": "ReadingRoom.Analytics\\Data\\SampleData.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:12:19.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "ReadingRoom.Api\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:59:53.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ReadingRoom.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Api\\Program.cs",
+              "RelativeToolTip": "ReadingRoom.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:40:04.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReadingRoom.Analytics.csproj",
+              "DocumentMoniker": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj",
+              "RelativeDocumentMoniker": "ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj",
+              "ToolTip": "C:\\Users\\sahil\\source\\repos\\ReadingRoomManager\\ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj",
+              "RelativeToolTip": "ReadingRoom.Analytics\\ReadingRoom.Analytics.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T06:11:05.869Z"
             }
           ]
         }

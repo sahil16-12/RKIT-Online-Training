@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 2rem;
+    }
+
+    .container {
+      width: 90%;
+      margin: 20px auto;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      padding: 2rem;
+    }
+
+    .box {
+      background-color: #2196f3;
+      color: white;
+      padding: 1rem;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
+    /* MOBILE-FIRST: Stack boxes vertically */
+    .container {
+      display: block;
+    }
+
+    /* TABLET VIEW: 2 columns */
+    @media (min-width: 768px) {
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+    }
+
+    /* DESKTOP VIEW: 3 columns */
+    @media (min-width: 1024px) {
+      .container {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Design Example</h1>
+    <p>Resize the window to see layout changes</p>
+  </header>
+
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+  </div>
+
+</body>
+</html>

@@ -48,10 +48,10 @@ C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\ReadingR.65660B45.Up2Date
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\ReadingRoom.Api.dll
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\refint\ReadingRoom.Api.dll
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\ReadingRoom.Api.pdb
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\ReadingRoom.Api.genruntimeconfig.cache
 C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\ref\ReadingRoom.Api.dll
+C:\Users\sahil\source\repos\ReadingRoomManager\ReadingRoom.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

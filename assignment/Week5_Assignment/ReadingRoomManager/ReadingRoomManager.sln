@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingRoom.Api", "ReadingRoom.Api\ReadingRoom.Api.csproj", "{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingRoom.Analytics", "ReadingRoom.Analytics\ReadingRoom.Analytics.csproj", "{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingRoom.Analytics", "ReadingRoom.Analytics\ReadingRoom.Analytics.csproj", "{08A6874E-4360-446D-8C1C-A6F2F132C838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD8EDE95-E0B6-4A8F-9FEA-637EAAB77857}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3380CF0A-1CBF-4D17-B823-21F8F2ADD2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A6874E-4360-446D-8C1C-A6F2F132C838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A6874E-4360-446D-8C1C-A6F2F132C838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A6874E-4360-446D-8C1C-A6F2F132C838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A6874E-4360-446D-8C1C-A6F2F132C838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
