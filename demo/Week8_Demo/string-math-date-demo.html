@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>String, Math & Date Demo</title>
+  </head>
+  <body>
+    <h1>String, Math & Date Demo</h1>
+    <p>Open Console (F12) to see output</p>
+
+    <script>
+      console.clear();
+
+// STRING METHODS DEMO
+
+      let fullName = "   Shahil Vora   ";
+
+      console.log("Original:", `"${fullName}"`);
+      console.log("Trimmed:", fullName.trim());
+      console.log("Uppercase:", fullName.toUpperCase());
+      console.log("Includes 'Vora':", fullName.includes("Vora"));
+      console.log("Slice (0,6):", fullName.trim().slice(0, 6));
+      console.log("Replace:", fullName.replace("Vora", "Patel"));
+      console.log("Split:", fullName.trim().split(" "));
+// MATH METHODS DEMO
+
+      let price = 99.75;
+
+      console.log("Round:", Math.round(price));
+      console.log("Floor:", Math.floor(price));
+      console.log("Ceil:", Math.ceil(price));
+      console.log("Random (1–10):", Math.floor(Math.random() * 10) + 1);
+      console.log("Max:", Math.max(10, 20, 5));
+      console.log("Power:", Math.pow(2, 3));
+      console.log("Square root:", Math.sqrt(25));
+      console.log("Absolute:", Math.abs(-42));
+
+// DATE & TIME DEMO
+
+      const now = new Date();
+
+      console.log("Current Date:", now);
+      console.log("Year:", now.getFullYear());
+      console.log("Month:", now.getMonth() + 1); // +1 because 0-based
+      console.log("Date:", now.getDate());
+      console.log("Day:", now.getDay());
+      console.log("Time:", now.toLocaleTimeString());
+      console.log("Date String:", now.toDateString());
+
+      // Date difference
+      const start = new Date("2025-01-01");
+      const end = new Date("2025-01-10");
+      const diffDays = (end - start) / (1000 * 60 * 60 * 24);
+
+      console.log("Days difference:", diffDays);
+    </script>
+  </body>
+</html>

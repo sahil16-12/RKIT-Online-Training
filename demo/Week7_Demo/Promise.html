@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Promises Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      button {
+        margin: 6px;
+        padding: 8px 14px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+      }
+      #log {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 6px;
+        background-color: #f5f5f5;
+        min-height: 40px;
+        font-size: 14px;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Promises Demo</h1>
+
+    <p>Open the Console and click these buttons.</p>
+
+    <button id="btn-basic">Basic Promise (success / fail)</button>
+    <button id="btn-all">Promise.all – wait for all</button>
+    <button id="btn-race">Promise.race – first wins</button>
+    <button id="btn-allsettled">Promise.allSettled – get all results</button>
+
+    <div id="log">Logs will also appear here.</div>
+
+    <script>
+      const logDiv = document.getElementById("log");
+
+      function log(msg) {
+        console.log(msg);
+        logDiv.textContent += msg + "\n";
+      }
+
+      // Fake API helper: returns a promise that resolves/rejects after a delay
+      function fakeApi(name, delay, shouldFail = false) {
+        // Think of this as a fake network/API call.
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            if (shouldFail) {
+              reject(name + " failed after " + delay + "ms");
+            } else {
+              resolve(name + " success after " + delay + "ms");
+            }
+          }, delay);
+        });
+      }
+
+      // Basic Promise example
+      document.getElementById("btn-basic").addEventListener("click", () => {
+        logDiv.textContent = ""; // clear previous log
+        log("Starting basic promise...");
+
+        // Imagine this is an API call that might succeed or fail
+        const shouldFail = Math.random() < 0.5; // random true/false
+
+        const p = fakeApi("BasicRequest", 1000, shouldFail);
+
+        p.then((result) => {
+          log("Promise fulfilled: " + result);
+        })
+          .catch((error) => {
+            log("Promise rejected: " + error);
+          })
+          .finally(() => {
+            log("Basic promise finished (then/catch done).");
+          });
+      });
+
+      // 2️⃣ Promise.all example
+      document.getElementById("btn-all").addEventListener("click", () => {
+        logDiv.textContent = "";
+        log("Starting Promise.all...");
+
+        const p1 = fakeApi("Request1", 1000,true); // 1 second
+        const p2 = fakeApi("Request2", 1500); // 1.5 seconds
+
+        // Wait until BOTH finish successfully
+        Promise.all([p1, p2])
+          .then((results) => {
+            // results is an array [resultOfP1, resultOfP2]
+            log("Promise.all fulfilled with results:");
+            results.forEach((res, index) => log("   [" + index + "] " + res));
+          })
+          .catch((error) => {
+            // If any of p1/p2 failed, we come here
+            log("Promise.all rejected: " + error);
+          });
+      });
+
+      // 3️⃣ Promise.race example
+      document.getElementById("btn-race").addEventListener("click", () => {
+        logDiv.textContent = "";
+        log("Starting Promise.race...");
+
+        const p1 = fakeApi("FastRequest", 800); // 0.8 second
+        const p2 = fakeApi("SlowRequest", 2000); // 2 seconds
+
+        Promise.race([p1, p2])
+          .then((winner) => {
+            log("Promise.race winner (fulfilled): " + winner);
+          })
+          .catch((error) => {
+            log("Promise.race winner (rejected): " + error);
+          });
+      });
+
+      // 4️⃣ Promise.allSettled example
+      document
+        .getElementById("btn-allsettled")
+        .addEventListener("click", () => {
+          logDiv.textContent = "";
+          log("Starting Promise.allSettled...");
+
+          const p1 = fakeApi("Req1", 1000); // success
+          const p2 = fakeApi("Req2", 1200, true); // fail
+          const p3 = fakeApi("Req3", 800); // success
+
+          Promise.allSettled([p1, p2, p3]).then((results) => {
+            log("📦 Promise.allSettled results:");
+            results.forEach((res, index) => {
+              if (res.status === "fulfilled") {
+                log(`   [${index}] fulfilled → ${res.value}`);
+              } else {
+                log(`   [${index}] rejected → ${res.reason}`);
+              }
+            });
+          });
+        });
+    </script>
+  </body>
+</html>

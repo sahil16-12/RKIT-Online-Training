@@ -63,7 +63,7 @@
     <div class="section-title">1) onclick examples</div>
 
     <!-- Inline onclick -->
-    <button onclick="alert('Inline onclick: Button clicked!')">
+    <button id="tempbutton" onclick="alert('Inline onclick: Button clicked!')">
       Inline onclick Button
     </button>
 
@@ -125,6 +125,17 @@
         console.log(message);
       }
 
+      const tempbutton = document.getElementById("tempbutton");
+
+      tempbutton.onclick = function () {
+        console.log("This is another way to set onclick using JS property.");
+      };
+
+      tempbutton.addEventListener("click", function () {
+        console.log(
+          "This is an addEventListener on the same button. Both will run."
+        );
+      });
       // 1) onclick examples
       const jsOnclickBtn = document.getElementById("js-onclick-btn");
 
@@ -217,7 +228,10 @@
       bubbleButton.addEventListener("click", function (event) {
         logMessage(bubbleLog, "Button handler triggered.");
         // Uncomment this line to stop the event from reaching inner/outer:
-        // event.stopPropagation();
+        event.stopPropagation();
+
+        // stopImmediatePropagation in action -> It will stop bubbling and also other event listeners of same type on same element
+        // event.stopImmediatePropagation();
       });
     </script>
   </body>
