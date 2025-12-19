@@ -1,93 +1,10 @@
-
- // BASIC CLASS + PROPERTY DECLARATION
-
-class Person {
-  // property declaration
-  name;
-  age;
-
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-
-  introduce() {
-    console.log(`Hi, I am ${this.name}, ${this.age} years old.`);
-  }
-}
-
-// INHERITANCE + METHOD OVERRIDING
-
-class Employee extends Person {
-  role;
-
-  constructor(name, age, role) {
-    super(name, age); // call parent constructor
-    this.role = role;
-  }
-
-  // Method overriding
-  introduce() {
-    console.log(
-      `Hi, I am ${this.name}, working as a ${this.role}, age ${this.age}.`
-    );
-  }
-}
-
-// METHOD OVERLOADING 
-
-class Calculator {
-  add(...args) {
-    // Method "overloading" simulation
-    if (args.length === 2) {
-      return args[0] + args[1];
-    }
-    if (args.length === 3) {
-      return args[0] + args[1] + args[2];
-    }
-    return 0;
-  }
-}
-
-// STATIC PROPERTIES & METHODS
-
-class MathUtil {
-  static PI = 3.14159; // static property
-
-  static circleArea(radius) {
-    return this.PI * radius * radius;
-  }
-}
-
-// INTERFACE SIMULATION USING ABSTRACT CLASS
-
-class Drivable {
-  drive() {
-    throw new Error("drive() method must be implemented");
-  }
-}
-
-class Car extends Drivable {
-  constructor(brand) {
-    super();
-    this.brand = brand;
-  }
-
-  drive() {
-    console.log(`${this.brand} car is driving`);
-  }
-}
-
-class Bike extends Drivable {
-  constructor(brand) {
-    super();
-    this.brand = brand;
-  }
-
-  drive() {
-    console.log(`${this.brand} bike is driving`);
-  }
-}
+// Import all classes
+import { Person } from "./Person.js";
+import { Employee } from "./Employee.js";
+import { Calculator } from "./Calculator.js";
+import { MathUtil } from "./MathUtil.js";
+import { Car } from "./Car.js";
+import { Bike } from "./Bike.js";
 
 // Event Listeners for Demo Buttons
 

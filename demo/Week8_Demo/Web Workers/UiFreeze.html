@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Without Web Worker</title>
+  </head>
+  <body>
+    <h2>Without Web Worker (UI Freezes)</h2>
+
+    <button onclick="heavyTask()">Start Heavy Task</button>
+    <button onclick="alert('Clicked!')">Click Me</button>
+
+    <script>
+      function heavyTask() {
+        console.log("Task started");
+
+        // Heavy computation
+        let sum = 0;
+        for (let i = 0; i < 5_000_000_000; i++) {
+          sum += i;
+        }
+
+        console.log("Task finished", sum);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+/* Light bulb box */
+#bulb {
+  width: 120px;
+  height: 120px;
+  background-color: gray;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}

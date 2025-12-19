@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Refresh Detection</title>
+  </head>
+  <body>
+    <h2>Refresh Detection Demo</h2>
+    <a href="https://www.google.com">Google.com</a>
+
+    <script>
+      const navEntry = performance.getEntriesByType("navigation")[0];
+
+      if (navEntry && navEntry.type === "reload") {
+        alert("Refresh button clicked");
+      }
+    </script>
+  </body>
+</html>

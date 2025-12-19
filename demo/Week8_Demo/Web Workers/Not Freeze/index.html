@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>With Web Worker</title>
+</head>
+<body>
+  <h2>With Web Worker (UI Responsive)</h2>
+
+  <button id="startBtn">Start Heavy Task</button>
+  <button onclick="alert('Clicked!')">Click Me</button>
+
+  <p id="result"></p>
+
+  <script>
+    // Create worker
+    const worker = new Worker("worker.js");
+
+    // Send message to worker
+    document.getElementById("startBtn").onclick = () => {
+      worker.postMessage("start");
+    };
+
+    // Receive message from worker
+    worker.onmessage = (event) => {
+      document.getElementById("result").innerText =
+        "Result: " + event.data;
+    };
+  </script>
+</body>
+</html>
