@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Events Demo: onclick, onchange, addEventListener, Bubbling</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>JavaScript Events Demo</h1>
+    <div class="section-title">1) onclick examples</div>
+    <!-- Inline onclick -->
+    <button id="tempbutton" onclick="alert('Inline onclick: Button clicked!')">
+      Inline onclick Button
+    </button>
+    <!-- We'll attach onclick using JS below -->
+    <button id="js-onclick-btn">JS onclick Button</button>
+    <div class="section-title">2) onchange examples</div>
+    <label>
+      Username (onchange fires when you leave the field):
+      <input type="text" id="username-input" placeholder="Type something..." />
+    </label>
+    <br />
+    <label>
+      Favorite language (onchange fires when you select):
+      <select id="language-select">
+        <option value="">-- Choose one --</option>
+        <option value="js">JavaScript</option>
+        <option value="py">Python</option>
+        <option value="java">Java</option>
+      </select>
+    </label>
+    <div id="change-log" class="log">onchange messages will appear here...</div>
+    <div class="section-title">3) addEventListener example</div>
+    <button id="multi-listener-btn">Click me (multiple listeners)</button>
+    <div id="listener-log" class="log">
+      addEventListener logs will appear here...
+    </div>
+    <div class="section-title">4) Event bubbling example</div>
+    <p>
+      Click the button inside the nested boxes below and watch the console or
+      the log. We'll show how the event moves from inner → outer.
+    </p>
+    <div id="outer" class="box">
+      Outer DIV
+      <div id="inner" class="box">
+        Inner DIV
+        <button id="bubble-button">Click me (bubbling demo)</button>
+      </div>
+    </div>
+    <div id="bubble-log" class="log">
+      Event bubbling logs will appear here...
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

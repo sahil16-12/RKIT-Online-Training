@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cookies Demo – JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Cookies Demo</h1>
+    <!-- ===========================
+       1) Remember username with cookies
+  ============================ -->
+    <div class="card">
+      <div class="label">1) Remember username (cookie)</div>
+      <p class="small-text">
+        We'll store your name in a cookie and greet you on reload.
+      </p>
+      <input type="text" id="username-input" placeholder="Enter your name..." />
+      <br />
+      <button id="save-name-btn" class="btn-primary">
+        Save Name in Cookie
+      </button>
+      <button id="delete-name-btn" class="btn-secondary">
+        Delete Name Cookie
+      </button>
+      <p id="greeting-text">No name cookie set yet.</p>
+    </div>
+    <!-- ===========================
+       2) Visit counter using cookies
+  ============================ -->
+    <div class="card">
+      <div class="label">2) Visit counter (cookie)</div>
+      <p class="small-text">
+        This will count how many times you visited/reloaded this page (based on
+        cookie).
+      </p>
+      <p id="visit-count-text">Loading visit count...</p>
+      <button id="reset-visits-btn" class="btn-secondary">
+        Reset Visit Cookie
+      </button>
+    </div>
+    <!-- ===========================
+       3) Clear ALL cookies (for this demo)
+  ============================ -->
+    <div class="card">
+      <div class="label">3) Clear all demo cookies</div>
+      <p class="small-text">
+        This will delete the cookies that we created in this page (username,
+        visits).
+      </p>
+      <button id="clear-all-cookies-btn" class="btn-secondary">
+        Clear Demo Cookies
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

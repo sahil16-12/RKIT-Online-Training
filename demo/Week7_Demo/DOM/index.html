@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="page-title">DOM Manipulation Demo</h1>
+    <div id="main-box">
+      <p id="text-para">
+        This is some text that we will change using JavaScript.
+      </p>
+      <p class="info-para">I am another paragraph with class "info-para".</p>
+    </div>
+    <!-- Buttons to trigger JS actions -->
+    <button class="btn btn-primary" id="btn-change-text">
+      Change Text using innerHTML
+    </button>
+    <button class="btn btn-secondary" id="btn-highlight">
+      Toggle Highlight (classList)
+    </button>
+    <button class="btn btn-success" id="btn-change-style">
+      Change Box Style using .style
+    </button>
+    <button class="btn btn-warning" id="btn-toggle-info">
+      Show / Hide Info Paragraph (querySelector)
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

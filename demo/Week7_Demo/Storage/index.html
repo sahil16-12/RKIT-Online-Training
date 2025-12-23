@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Storage Demo – localStorage & sessionStorage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>JavaScript Storage Demo</h1>
+    <!-- ===========================
+       1) Save username in localStorage
+  ============================ -->
+    <div class="card">
+      <div class="label">1) Save username (localStorage)</div>
+      <p class="small-text">
+        We will store your username so that when you refresh the page, it
+        remembers it.
+      </p>
+      <input type="text" id="username-input" placeholder="Enter your name..." />
+      <br />
+      <button id="save-username-btn" class="btn-primary">Save Name</button>
+      <button id="clear-username-btn" class="btn-secondary">
+        Clear Stored Name
+      </button>
+      <p id="greeting-text">No name stored yet.</p>
+    </div>
+    <!-- ===========================
+       2) Theme preference using localStorage
+  ============================ -->
+    <div class="card">
+      <div class="label">2) Theme toggle (localStorage)</div>
+      <p class="small-text">
+        Click to toggle light/dark theme. Your choice will be stored and kept on
+        refresh.
+      </p>
+      <button id="toggle-theme-btn" class="btn-primary">Toggle Theme</button>
+      <p id="theme-status" class="small-text">Current theme: Light (default)</p>
+    </div>
+    <!-- ===========================
+       3) Click counter using sessionStorage
+  ============================ -->
+    <div class="card">
+      <div class="label">3) Session click counter (sessionStorage)</div>
+      <p class="small-text">
+        Counts how many times you clicked this button in THIS TAB only. If you
+        close the tab, counter resets.
+      </p>
+      <button id="session-click-btn" class="btn-primary">
+        Click me in this tab
+      </button>
+      <p id="session-count-text">You have clicked 0 times in this tab.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

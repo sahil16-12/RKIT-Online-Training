@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+button {
+  margin: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+.image-box img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+}
