@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  margin: 8px 0;
+  padding: 6px;
+}
+
+#errorList {
+  color: red;
+  margin-top: 10px;
+}
