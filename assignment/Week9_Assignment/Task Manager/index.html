@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 9.3 - AJAX CRUD Task Manager</title>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Task Manager (AJAX CRUD)</h2>
+
+  <!-- Spinner -->
+  <div id="spinner">Loading...</div>
+
+  <!-- Add Task -->
+  <input type="text" id="newTask" placeholder="Enter new task">
+  <button id="addTaskBtn">Add Task</button>
+
+  <!-- Task Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Task</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="taskTableBody"></tbody>
+  </table>
+    <script src="script.js"></script>
+</body>
+</html>
