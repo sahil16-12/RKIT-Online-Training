@@ -22,7 +22,7 @@ $(document).ready(function () {
       method: "GET"
     });
 
-    // 🔥 Wait for BOTH requests to finish
+    // Wait for BOTH requests to finish
     $.when(userRequest, postsRequest)
 
       .done(function (userResponse, postsResponse) {

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger_Demo</name>
+    </assembly>
+    <members>
+        <member name="T:Swagger_Demo.App_Start.SwaggerConfig">
+            <summary>
+            Configures Swagger (OpenAPI) generation and the Swagger UI for Web API.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.App_Start.SwaggerConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Registers Swagger generator and UI. Call from Application_Start.
+            </summary>
+            <param name="config">HttpConfiguration to configure.</param>
+        </member>
+        <member name="M:Swagger_Demo.App_Start.SwaggerConfig.GetXmlCommentsPath">
+            <summary>
+            Returns the XML comments file path for this assembly.
+            </summary>
+            <returns>Full path to XML documentation file emitted by compiler.</returns>
+        </member>
+        <member name="T:Swagger_Demo.WebApiConfig">
+            <summary>
+            Standard Web API routing configuration.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Register routing and other Web API configuration.
+            </summary>
+            <param name="config">HttpConfiguration instance.</param>
+        </member>
+        <member name="T:Swagger_Demo.Controllers.ValuesController">
+            <summary>
+            Demonstration controller — basic CRUD-like endpoints for values.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ValuesController.Get">
+            <summary>
+            GET api/values
+            Returns a small list of values.
+            </summary>
+            <returns>List of string values.</returns>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ValuesController.GetById(System.Int32)">
+            <summary>
+            GET api/values/{id}
+            Returns the requested value by id.
+            </summary>
+            <param name="id">Index of the value to return.</param>
+            <returns>Single value string or NotFound.</returns>
+        </member>
+        <member name="T:Swagger_Demo.Filters.AddAuthHeaderParameter">
+            <summary>
+            Adds the Authorization header parameter to each operation in the generated Swagger doc.
+            This makes it possible to enter a Bearer token in the UI for testing protected endpoints.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.Filters.AddAuthHeaderParameter.Apply(Swashbuckle.Swagger.Operation,Swashbuckle.Swagger.SchemaRegistry,System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Applies the filter to an operation.
+            </summary>
+            <param name="operation">The operation being generated.</param>
+            <param name="schemaRegistry">The schema registry.</param>
+            <param name="apiDescription">API description for the operation.</param>
+        </member>
+        <member name="T:Swagger_Demo.WebApiApplication">
+            <summary>
+            Global application class.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.WebApiApplication.Application_Start">
+            <summary>
+            Called when the application starts.
+            </summary>
+        </member>
+    </members>
+</doc>
