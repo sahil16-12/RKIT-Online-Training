@@ -29,7 +29,7 @@ namespace Swagger_Demo.App_Start
                         "MyApi - Demo"
                     );
 
-                    // Include XML comments (so method / param docs appear)
+                    // Include XML comments
                     if (File.Exists(xmlCommentsPath))
                     {
                         swaggerConfig.IncludeXmlComments(xmlCommentsPath);

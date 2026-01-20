@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+vendor/
+bower_components/
+packages/
+
+# Build outputs
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Test coverage
+coverage/
+*.coveragerc
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager lock files (optional)
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.class
+*.o
+*.pyc
+__pycache__/
+*.dll
+*.exe
+*.so
+*.dylib

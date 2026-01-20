@@ -14,7 +14,7 @@ namespace Versioning_Demo
     {
         /// <summary>
         /// Register Web API configuration.
-        /// Call this from Global.asax or Startup.
+        /// Call this from Global.asax
         /// </summary>
         /// <param name="config">HttpConfiguration instance</param>
         public static void Register(HttpConfiguration config)
