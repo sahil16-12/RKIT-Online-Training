@@ -1,0 +1,26 @@
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\OAuth Demo.exe
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\OAuth Demo.dll.config
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\OAuth Demo.deps.json
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\OAuth Demo.runtimeconfig.json
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\OAuth Demo.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\OAuth Demo.pdb
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\Google.Apis.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\Google.Apis.Auth.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\Google.Apis.Core.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\System.Management.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.csproj.AssemblyReference.cache
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.AssemblyInfoInputs.cache
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.AssemblyInfo.cs
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.csproj.CoreCompileInputs.cache
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.csproj.CopyComplete
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\refint\OAuth Demo.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.pdb
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\OAuth Demo.genruntimeconfig.cache
+C:\Users\Shahil.v\source\repos\Week10_Demo\OAuth Demo\obj\Debug\net7.0\ref\OAuth Demo.dll
