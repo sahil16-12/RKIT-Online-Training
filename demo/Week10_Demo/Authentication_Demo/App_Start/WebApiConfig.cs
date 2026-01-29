@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Authentication_Demo.App_Start;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
@@ -16,11 +14,13 @@ public static class WebApiConfig
     /// <param name="config">HttpConfiguration instance</param>
     public static void Register(HttpConfiguration config)
     {
+        config.SuppressDefaultHostAuthentication();
+        config.Filters.Add(new HostAuthenticationFilter("Bearer"));
         // Enable attribute routing
         config.MapHttpAttributeRoutes();
 
         // Enable CORS globally
-        var cors = new EnableCorsAttribute("*", "*", "*");
+        EnableCorsAttribute cors = new EnableCorsAttribute("http://127.0.0.1:5500", "*", "*");
         config.EnableCors(cors);
 
         // Default API route
@@ -29,6 +29,7 @@ public static class WebApiConfig
             routeTemplate: "api/{controller}/{id}",
             defaults: new { id = RouteParameter.Optional }
         );
+
     }
 }
 

@@ -32,6 +32,62 @@
             </summary>
             <param name="config">HttpConfiguration instance.</param>
         </member>
+        <member name="T:Swagger_Demo.Controllers.ImageController">
+            <summary>
+            Controller for handling image uploads via file or base64 encoding.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ImageController.UploadImage">
+            <summary>
+            POST api/image/upload
+            Upload an image file (supports multipart/form-data).
+            </summary>
+            <remarks>
+            This endpoint accepts an image file upload via multipart/form-data.
+            Supported formats: JPG, PNG, GIF, BMP.
+            Maximum file size: 10MB.
+            </remarks>
+            <returns>Success message with image details.</returns>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ImageController.UploadBase64Image(Swagger_Demo.Controllers.Base64ImageRequest)">
+            <summary>
+            POST api/image/upload-base64
+            Upload an image as a base64 encoded string.
+            </summary>
+            <remarks>
+            This endpoint accepts an image as a base64 encoded string in the request body.
+            The request should be a JSON object with the following structure:
+            {
+              "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+              "fileName": "myimage.png" (optional)
+            }
+            or just the base64 string without the data URI prefix.
+            </remarks>
+            <param name="request">Base64 image upload request.</param>
+            <returns>Success message with image details.</returns>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ImageController.IsValidImageContentType(System.String)">
+            <summary>
+            Validates if the content type is a valid image type.
+            </summary>
+        </member>
+        <member name="T:Swagger_Demo.Controllers.Base64ImageRequest">
+            <summary>
+            Request model for base64 image upload.
+            </summary>
+        </member>
+        <member name="P:Swagger_Demo.Controllers.Base64ImageRequest.Base64Image">
+            <summary>
+            Base64 encoded image string (with or without data URI prefix).
+            </summary>
+            <example>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...</example>
+        </member>
+        <member name="P:Swagger_Demo.Controllers.Base64ImageRequest.FileName">
+            <summary>
+            Optional file name for the uploaded image.
+            </summary>
+            <example>myimage.png</example>
+        </member>
         <member name="T:Swagger_Demo.Controllers.ValuesController">
             <summary>
             Demonstration controller — basic CRUD-like endpoints for values.
@@ -52,20 +108,6 @@
             <param name="id">Index of the value to return.</param>
             <returns>Single value string or NotFound.</returns>
         </member>
-        <member name="T:Swagger_Demo.Filters.AddAuthHeaderParameter">
-            <summary>
-            Adds the Authorization header parameter to each operation in the generated Swagger doc.
-            This makes it possible to enter a Bearer token in the UI for testing protected endpoints.
-            </summary>
-        </member>
-        <member name="M:Swagger_Demo.Filters.AddAuthHeaderParameter.Apply(Swashbuckle.Swagger.Operation,Swashbuckle.Swagger.SchemaRegistry,System.Web.Http.Description.ApiDescription)">
-            <summary>
-            Applies the filter to an operation.
-            </summary>
-            <param name="operation">The operation being generated.</param>
-            <param name="schemaRegistry">The schema registry.</param>
-            <param name="apiDescription">API description for the operation.</param>
-        </member>
         <member name="T:Swagger_Demo.WebApiApplication">
             <summary>
             Global application class.
@@ -74,6 +116,12 @@
         <member name="M:Swagger_Demo.WebApiApplication.Application_Start">
             <summary>
             Called when the application starts.
+            </summary>
+        </member>
+        <member name="T:Swagger_Demo.Utils.FileUploadOperationFilter">
+            <summary>
+            Operation filter to add file upload parameter to Swagger UI for image upload endpoints.
+            This enables the "Choose File" button in the Swagger interface.
             </summary>
         </member>
     </members>

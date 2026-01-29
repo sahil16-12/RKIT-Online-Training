@@ -42,11 +42,12 @@ namespace Versioning_Demo
                 options.AssumeDefaultVersionWhenUnspecified = true;
                 options.DefaultApiVersion = new ApiVersion(2, 0);
 
-                // Accept version from URL segment OR from custom header "x-api-version"
+                // Accept version from URL segment OR from custom header "x-api-version" OR from query string as api-versiom
                 options.ApiVersionReader = ApiVersionReader.Combine(
                     new HeaderApiVersionReader("x-api-version"),
-                    new UrlSegmentApiVersionReader()
-
+                    new UrlSegmentApiVersionReader(),
+                    new QueryStringApiVersionReader("api-version"),
+                    new MediaTypeApiVersionReader("v")
                 );
             });
 

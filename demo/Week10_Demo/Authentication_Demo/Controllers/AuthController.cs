@@ -31,7 +31,7 @@ namespace Authentication_Demo.Controllers
         public IHttpActionResult Login(LoginModel model)
         {
             // Hardcoded demo user validation
-            if (model.Username != "admin" || model.Password != "password")
+            if (model.Username != "sahil" || model.Password != "123")
                 return Unauthorized();
 
             // Token handler used to create and write JWT tokens

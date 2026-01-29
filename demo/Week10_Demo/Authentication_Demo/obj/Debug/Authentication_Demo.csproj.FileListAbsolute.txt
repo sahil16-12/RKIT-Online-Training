@@ -124,3 +124,5 @@ C:\Users\Shahil.v\source\repos\Week10_Demo\Authentication_Demo\obj\Debug\Authent
 C:\Users\Shahil.v\source\repos\Week10_Demo\Authentication_Demo\obj\Debug\Authentication_Demo.csproj.CopyComplete
 C:\Users\Shahil.v\source\repos\Week10_Demo\Authentication_Demo\obj\Debug\Authentication_Demo.dll
 C:\Users\Shahil.v\source\repos\Week10_Demo\Authentication_Demo\obj\Debug\Authentication_Demo.pdb
+C:\Users\Shahil.v\source\repos\Week10_Demo\Authentication_Demo\bin\Swashbuckle.Core.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Authentication_Demo\bin\WebActivatorEx.dll

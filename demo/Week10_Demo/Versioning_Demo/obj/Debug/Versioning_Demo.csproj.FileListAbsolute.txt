@@ -86,3 +86,5 @@ C:\Users\Shahil.v\source\repos\Week10_Demo\Versioning_Demo\obj\Debug\Versioning_
 C:\Users\Shahil.v\source\repos\Week10_Demo\Versioning_Demo\obj\Debug\Versioning_Demo.csproj.CopyComplete
 C:\Users\Shahil.v\source\repos\Week10_Demo\Versioning_Demo\obj\Debug\Versioning_Demo.dll
 C:\Users\Shahil.v\source\repos\Week10_Demo\Versioning_Demo\obj\Debug\Versioning_Demo.pdb
+C:\Users\Shahil.v\source\repos\Week10_Demo\Versioning_Demo\bin\Swashbuckle.Core.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Versioning_Demo\bin\WebActivatorEx.dll

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versioning_Demo", "Versioni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger_Demo", "Swagger_Demo\Swagger_Demo.csproj", "{EEF66117-DD19-434A-A167-8EFAF2CAFEB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginRateLimiterDemo", "LoginRateLimiterDemoR\LoginRateLimiterDemo.csproj", "{586CDFAE-689D-4D58-A8C6-E9301FC83E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth Demo", "OAuth Demo\OAuth Demo.csproj", "{B0043535-827A-4ED1-BA0B-8A74A3F4AAE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{EEF66117-DD19-434A-A167-8EFAF2CAFEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEF66117-DD19-434A-A167-8EFAF2CAFEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEF66117-DD19-434A-A167-8EFAF2CAFEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586CDFAE-689D-4D58-A8C6-E9301FC83E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586CDFAE-689D-4D58-A8C6-E9301FC83E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586CDFAE-689D-4D58-A8C6-E9301FC83E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586CDFAE-689D-4D58-A8C6-E9301FC83E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0043535-827A-4ED1-BA0B-8A74A3F4AAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0043535-827A-4ED1-BA0B-8A74A3F4AAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0043535-827A-4ED1-BA0B-8A74A3F4AAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0043535-827A-4ED1-BA0B-8A74A3F4AAE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

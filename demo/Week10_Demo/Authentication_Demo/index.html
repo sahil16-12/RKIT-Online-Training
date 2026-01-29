@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JWT Auth Demo</title>
+</head>
+<body>
+
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+
+    <hr>
+
+    <h2>Protected API</h2>
+    <button onclick="callProtectedApi()">Call Protected Endpoint</button>
+
+<pre id="output"></pre>
+
+    <script>
+        const API_BASE = "https://localhost:44371/api";
+
+        async function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            const res = await fetch(`${API_BASE}/auth/login`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    Username: username,
+                    Password: password
+                })
+            });
+
+            if (!res.ok) {
+                alert("Login failed");
+                return;
+            }
+
+            const data = await res.json();
+
+            // STORE TOKEN
+            localStorage.setItem("jwt", data.token);
+
+            alert("Login successful!");
+        }
+
+        async function callProtectedApi() {
+            const token = localStorage.getItem("jwt");
+
+            if (!token) {
+                alert("Please login first");
+                return;
+            }
+
+            const res = await fetch(`${API_BASE}/values`, {
+                headers: {
+                    "Authorization": `Bearer ${token}`
+                }
+            });
+
+            if (!res.ok) {
+                document.getElementById("output").innerText = "Unauthorized or error";
+                return;
+            }
+
+            const data = await res.json();
+            document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+
+</body>
+</html>

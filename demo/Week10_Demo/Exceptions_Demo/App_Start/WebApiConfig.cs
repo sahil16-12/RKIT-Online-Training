@@ -6,24 +6,27 @@ using System.Web.Http.ExceptionHandling;
 namespace Exceptions_Demo
 {
     /// <summary>
-    /// Web API configuration and services.
+    /// Web API configuration: routes, global filters, message handlers and global exception handler replacement.
     /// </summary>
     public static class WebApiConfig
     {
-        /// <summary>
-        /// Register Web API configuration.
-        /// Call this from Global.asax
-        /// </summary>
-        /// <param name="config">HttpConfiguration instance</param>
         public static void Register(HttpConfiguration config)
         {
+            // Attribute routing
             config.MapHttpAttributeRoutes();
 
-            // Register global exception handler
+            // Add a message handler (runs for every request)
+            config.MessageHandlers.Add(new LoggingHandler());
+
+            // Add an exception filter (can short-circuit controller exceptions)
+            config.Filters.Add(new CustomExceptionFilterAttribute());
+
+            // Replace the default global exception handler
             config.Services.Replace(
-                typeof(IExceptionHandler),
+                typeof(System.Web.Http.ExceptionHandling.IExceptionHandler),
                 new GlobalErrorHandler());
 
+            // Default route (optional — attribute routing is preferred)
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

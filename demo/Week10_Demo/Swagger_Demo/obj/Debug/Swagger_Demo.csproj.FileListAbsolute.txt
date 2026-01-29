@@ -69,3 +69,16 @@ C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\obj\Debug\Swagger_Demo.c
 C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\obj\Debug\Swagger_Demo.csproj.CopyComplete
 C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\obj\Debug\Swagger_Demo.dll
 C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\obj\Debug\Swagger_Demo.pdb
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Buffers.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Memory.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Numerics.Vectors.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Buffers.xml
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Memory.xml
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Numerics.Vectors.xml
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Shahil.v\source\repos\Week10_Demo\Swagger_Demo\bin\System.Threading.Tasks.Extensions.xml

@@ -2,7 +2,7 @@
 using System.IO;
 using System.Reflection;
 using System.Web.Http;
-using Swagger_Demo.Filters;
+using Swagger_Demo.Utils;
 using Swashbuckle.Application;
 
 namespace Swagger_Demo.App_Start
@@ -10,7 +10,7 @@ namespace Swagger_Demo.App_Start
     /// <summary>
     /// Configures Swagger (OpenAPI) generation and the Swagger UI for Web API.
     /// </summary>
-    public static class SwaggerConfig
+    public class SwaggerConfig
     {
         /// <summary>
         /// Registers Swagger generator and UI. Call from Application_Start.
@@ -35,23 +35,22 @@ namespace Swagger_Demo.App_Start
                         swaggerConfig.IncludeXmlComments(xmlCommentsPath);
                     }
 
-                    // Add a security definition for Bearer JWT (displayed in UI)
-                    swaggerConfig.ApiKey("Authorization")
-                        .Description("Enter 'Bearer {token}'")
-                        .Name("Authorization")
-                        .In("header");
+                    swaggerConfig.ApiKey("api_key")
+                        .Description("JWT Authorization using API Key (Bearer {token})")
+                        .Name("api_key") // name of the header
+                        .In("header"); // send in header
 
-                    // Optional: custom operation filter to add header param on each operation
-                    swaggerConfig.OperationFilter<AddAuthHeaderParameter>();
+                    swaggerConfig.OperationFilter<AddAuthHeaderHandler>();
+                    swaggerConfig.OperationFilter<FileUploadOperationFilter>();
                 })
-                .EnableSwaggerUi(
-                    ui =>
-                    {
-                        // UI customizations (title, doc expansion, etc.) can go here
-                        ui.DocumentTitle("MyApi Swagger UI");
-                    });
-        }
+            .EnableSwaggerUi(
+                c => { c.EnableApiKeySupport("api_key", "header"); }
+            );
 
+
+
+        }
+                  
         /// <summary>
         /// Returns the XML comments file path for this assembly.
         /// </summary>
