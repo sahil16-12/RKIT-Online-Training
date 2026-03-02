@@ -1,0 +1,9 @@
+
+  #logArea {
+    border: 1px solid #ccc;
+    height: 150px;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f9f9f9;
+    margin-top: 10px;
+  }
