@@ -1,0 +1,28 @@
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    form {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      margin-top: 20px;
+      white-space: pre-wrap;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }

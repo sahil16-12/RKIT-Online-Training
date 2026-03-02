@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger_Demo</name>
+    </assembly>
+    <members>
+        <member name="T:Swagger_Demo.App_Start.SwaggerConfig">
+            <summary>
+            Configures Swagger (OpenAPI) generation and the Swagger UI for Web API.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.App_Start.SwaggerConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Registers Swagger generator and UI. Call from Application_Start.
+            </summary>
+            <param name="config">HttpConfiguration to configure.</param>
+        </member>
+        <member name="M:Swagger_Demo.App_Start.SwaggerConfig.GetXmlCommentsPath">
+            <summary>
+            Returns the XML comments file path for this assembly.
+            </summary>
+            <returns>Full path to XML documentation file emitted by compiler.</returns>
+        </member>
+        <member name="T:Swagger_Demo.WebApiConfig">
+            <summary>
+            Standard Web API routing configuration.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Register routing and other Web API configuration.
+            </summary>
+            <param name="config">HttpConfiguration instance.</param>
+        </member>
+        <member name="T:Swagger_Demo.Controllers.ImageController">
+            <summary>
+            Controller for handling image uploads via file or base64 encoding.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ImageController.UploadImage">
+            <summary>
+            POST api/image/upload
+            Upload an image file (supports multipart/form-data).
+            </summary>
+            <remarks>
+            This endpoint accepts an image file upload via multipart/form-data.
+            Supported formats: JPG, PNG, GIF, BMP.
+            Maximum file size: 10MB.
+            </remarks>
+            <returns>Success message with image details.</returns>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ImageController.UploadBase64Image(Swagger_Demo.Controllers.Base64ImageRequest)">
+            <summary>
+            POST api/image/upload-base64
+            Upload an image as a base64 encoded string.
+            </summary>
+            <remarks>
+            This endpoint accepts an image as a base64 encoded string in the request body.
+            The request should be a JSON object with the following structure:
+            {
+              "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+              "fileName": "myimage.png" (optional)
+            }
+            or just the base64 string without the data URI prefix.
+            </remarks>
+            <param name="request">Base64 image upload request.</param>
+            <returns>Success message with image details.</returns>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ImageController.IsValidImageContentType(System.String)">
+            <summary>
+            Validates if the content type is a valid image type.
+            </summary>
+        </member>
+        <member name="T:Swagger_Demo.Controllers.Base64ImageRequest">
+            <summary>
+            Request model for base64 image upload.
+            </summary>
+        </member>
+        <member name="P:Swagger_Demo.Controllers.Base64ImageRequest.Base64Image">
+            <summary>
+            Base64 encoded image string (with or without data URI prefix).
+            </summary>
+            <example>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...</example>
+        </member>
+        <member name="P:Swagger_Demo.Controllers.Base64ImageRequest.FileName">
+            <summary>
+            Optional file name for the uploaded image.
+            </summary>
+            <example>myimage.png</example>
+        </member>
+        <member name="T:Swagger_Demo.Controllers.ValuesController">
+            <summary>
+            Demonstration controller — basic CRUD-like endpoints for values.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ValuesController.Get">
+            <summary>
+            GET api/values
+            Returns a small list of values.
+            </summary>
+            <returns>List of string values.</returns>
+        </member>
+        <member name="M:Swagger_Demo.Controllers.ValuesController.GetById(System.Int32)">
+            <summary>
+            GET api/values/{id}
+            Returns the requested value by id.
+            </summary>
+            <param name="id">Index of the value to return.</param>
+            <returns>Single value string or NotFound.</returns>
+        </member>
+        <member name="T:Swagger_Demo.WebApiApplication">
+            <summary>
+            Global application class.
+            </summary>
+        </member>
+        <member name="M:Swagger_Demo.WebApiApplication.Application_Start">
+            <summary>
+            Called when the application starts.
+            </summary>
+        </member>
+        <member name="T:Swagger_Demo.Utils.FileUploadOperationFilter">
+            <summary>
+            Operation filter to add file upload parameter to Swagger UI for image upload endpoints.
+            This enables the "Choose File" button in the Swagger interface.
+            </summary>
+        </member>
+    </members>
+</doc>

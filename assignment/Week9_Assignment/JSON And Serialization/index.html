@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 9.2 - JSON & Serialization</title>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>User Profile Form</h2>
+
+  <form id="userForm">
+
+    <!-- Text Inputs -->
+    <label>
+      Name:
+      <input type="text" name="name">
+    </label>
+
+    <label>
+      Email:
+      <input type="email" name="email">
+    </label>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+    <label>
+      <input type="radio" name="gender" value="Male"> Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="Female"> Female
+    </label>
+
+    <!-- Checkboxes -->
+    <label>Skills:</label>
+    <label>
+      <input type="checkbox" name="skills[]" value="JavaScript"> JavaScript
+    </label>
+    <label>
+      <input type="checkbox" name="skills[]" value="jQuery"> jQuery
+    </label>
+    <label>
+      <input type="checkbox" name="skills[]" value="React"> React
+    </label>
+
+    <!-- Save Button -->
+    <button type="submit">Save</button>
+  </form>
+
+  <h3>Serialized JSON Output</h3>
+  <pre id="output"></pre>
+  <script src="script.js"></script>
+</body>
+</html>
