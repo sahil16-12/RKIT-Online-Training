@@ -1,5 +1,5 @@
+using System.Text.Json.Serialization;
 using backend.Models;
-using backend.Mapping;
 
 namespace backend.DTOs
 {
@@ -13,56 +13,56 @@ namespace backend.DTOs
         /// <summary>
         /// Gets or sets user identifier.
         /// </summary>
-        [MapProperty("L01F01")]
-        public int Id { get; set; }
+        [JsonPropertyName("Id")]
+        public int L01F01 { get; set; }
 
         /// <summary>
         /// Gets or sets user role type.
         /// </summary>
-        [MapProperty("L01F02")]
-        public UserType UserType { get; set; }
+        [JsonPropertyName("UserType")]
+        public UserType L01F02 { get; set; }
 
         /// <summary>
         /// Gets or sets full name.
         /// </summary>
-        [MapProperty("L01F03")]
-        public string FullName { get; set; } = string.Empty;
+        [JsonPropertyName("FullName")]
+        public string L01F03 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets email address.
         /// </summary>
-        [MapProperty("L01F04")]
-        public string Email { get; set; } = string.Empty;
+        [JsonPropertyName("Email")]
+        public string L01F04 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets phone number.
         /// </summary>
-        [MapProperty("L01F05")]
-        public string Phone { get; set; } = string.Empty;
+        [JsonPropertyName("Phone")]
+        public string L01F05 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets date of birth.
         /// </summary>
-        [MapProperty("L01F06")]
-        public DateTime Dob { get; set; }
+        [JsonPropertyName("Dob")]
+        public DateTime L01F06 { get; set; }
 
         /// <summary>
         /// Gets or sets profile creation date and time.
         /// </summary>
-        [MapProperty("L01F08")]
-        public DateTime CreatedAt { get; set; }
+        [JsonPropertyName("CreatedAt")]
+        public DateTime L01F08 { get; set; }
 
         /// <summary>
         /// Gets or sets emergency contact number.
         /// </summary>
-        [MapProperty("L02F03")]
-        public string? EmergencyContact { get; set; }
+        [JsonPropertyName("EmergencyContact")]
+        public string? L02F03 { get; set; }
 
         /// <summary>
         /// Gets or sets allergy notes.
         /// </summary>
-        [MapProperty("L02F04")]
-        public string? Allergies { get; set; }
+        [JsonPropertyName("Allergies")]
+        public string? L02F04 { get; set; }
 
         #endregion
     }

@@ -1,4 +1,4 @@
-using backend.Mapping;
+using System.Text.Json.Serialization;
 
 namespace backend.DTOs
 {
@@ -12,38 +12,38 @@ namespace backend.DTOs
         /// <summary>
         /// Gets or sets doctor user identifier.
         /// </summary>
-        [MapProperty("L01F01")]
-        public int DoctorUserId { get; set; }
+        [JsonPropertyName("DoctorUserId")]
+        public int L01F01 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor full name.
         /// </summary>
-        [MapProperty("L01F03")]
-        public string FullName { get; set; } = string.Empty;
+        [JsonPropertyName("FullName")]
+        public string L01F03 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets doctor email address.
         /// </summary>
-        [MapProperty("L01F04")]
-        public string Email { get; set; } = string.Empty;
+        [JsonPropertyName("Email")]
+        public string L01F04 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets doctor phone number.
         /// </summary>
-        [MapProperty("L01F05")]
-        public string Phone { get; set; } = string.Empty;
+        [JsonPropertyName("Phone")]
+        public string L01F05 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets doctor specialization.
         /// </summary>
-        [MapProperty("L03F03")]
-        public string? Specialization { get; set; }
+        [JsonPropertyName("Specialization")]
+        public string? L03F03 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor years of experience.
         /// </summary>
-        [MapProperty("L03F05")]
-        public int? YearsExperience { get; set; }
+        [JsonPropertyName("YearsExperience")]
+        public int? L03F05 { get; set; }
 
         #endregion
     }

@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using backend.Mapping;
+using System.Text.Json.Serialization;
 using backend.Models;
 
 namespace backend.DTOs
@@ -16,8 +16,8 @@ namespace backend.DTOs
         /// </summary>
         [Required(ErrorMessage = "Please select a user type.")]
         [EnumDataType(typeof(UserType), ErrorMessage = "Please select a valid user type.")]
-        [MapProperty("L01F02")]
-        public UserType UserType { get; set; }
+        [JsonPropertyName("UserType")]
+        public UserType L01F02 { get; set; }
 
         /// <summary>
         /// Gets or sets full name.
@@ -26,8 +26,8 @@ namespace backend.DTOs
         [MinLength(3, ErrorMessage = "Full name must be at least 3 characters.")]
         [MaxLength(100, ErrorMessage = "Full name cannot exceed 100 characters.")]
         [RegularExpression(@"^[a-zA-Z ]+$", ErrorMessage = "Full name can contain only letters and spaces.")]
-        [MapProperty("L01F03")]
-        public string FullName { get; set; } = string.Empty;
+        [JsonPropertyName("FullName")]
+        public string L01F03 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets email address.
@@ -35,23 +35,23 @@ namespace backend.DTOs
         [Required(ErrorMessage = "Email is required.")]
         [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
         [MaxLength(100, ErrorMessage = "Email cannot exceed 100 characters.")]
-        [MapProperty("L01F04")]
-        public string Email { get; set; } = string.Empty;
+        [JsonPropertyName("Email")]
+        public string L01F04 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets phone number.
         /// </summary>
         [Required(ErrorMessage = "Phone number is required.")]
         [RegularExpression(@"^[0-9]{10}$", ErrorMessage = "Phone number must be exactly 10 digits.")]
-        [MapProperty("L01F05")]
-        public string Phone { get; set; } = string.Empty;
+        [JsonPropertyName("Phone")]
+        public string L01F05 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets date of birth.
         /// </summary>
         [Required(ErrorMessage = "Date of birth is required.")]
-        [MapProperty("L01F06")]
-        public DateTime Dob { get; set; }
+        [JsonPropertyName("Dob")]
+        public DateTime L01F06 { get; set; }
 
         /// <summary>
         /// Gets or sets password text.
@@ -64,33 +64,33 @@ namespace backend.DTOs
         /// Gets or sets patient emergency contact number.
         /// </summary>
         [RegularExpression(@"^$|^[0-9]{10}$", ErrorMessage = "Emergency contact must be exactly 10 digits.")]
-        [MapProperty("L02F03")]
-        public string? EmergencyContact { get; set; }
+        [JsonPropertyName("EmergencyContact")]
+        public string? L02F03 { get; set; }
 
         /// <summary>
         /// Gets or sets patient allergy notes.
         /// </summary>
-        [MapProperty("L02F04")]
-        public string? Allergies { get; set; }
+        [JsonPropertyName("Allergies")]
+        public string? L02F04 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor specialization.
         /// </summary>
-        [MapProperty("L03F03")]
-        public string? Specialization { get; set; }
+        [JsonPropertyName("Specialization")]
+        public string? L03F03 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor license number.
         /// </summary>
-        [MapProperty("L03F04")]
-        public string? LicenseNumber { get; set; }
+        [JsonPropertyName("LicenseNumber")]
+        public string? L03F04 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor years of experience.
         /// </summary>
         [Range(0, 60, ErrorMessage = "Years of experience must be between 0 and 60.")]
-        [MapProperty("L03F05")]
-        public int? YearsExperience { get; set; }
+        [JsonPropertyName("YearsExperience")]
+        public int? L03F05 { get; set; }
 
         #endregion
 
@@ -103,51 +103,51 @@ namespace backend.DTOs
         /// <returns>Validation errors for invalid fields.</returns>
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            if (UserType == UserType.DOCTOR)
+            if (L01F02 == UserType.DOCTOR)
             {
-                if (string.IsNullOrWhiteSpace(Specialization))
+                if (string.IsNullOrWhiteSpace(L03F03))
                 {
                     yield return new ValidationResult(
                         "Specialization is required for doctors.",
-                        new[] { nameof(Specialization) });
+                        new[] { nameof(L03F03) });
                 }
 
-                if (string.IsNullOrWhiteSpace(LicenseNumber))
+                if (string.IsNullOrWhiteSpace(L03F04))
                 {
                     yield return new ValidationResult(
                         "License number is required for doctors.",
-                        new[] { nameof(LicenseNumber) });
+                        new[] { nameof(L03F04) });
                 }
 
-                if (!YearsExperience.HasValue)
+                if (!L03F05.HasValue)
                 {
                     yield return new ValidationResult(
                         "Years of experience is required for doctors.",
-                        new[] { nameof(YearsExperience) });
+                        new[] { nameof(L03F05) });
                 }
             }
-            else if (UserType == UserType.PATIENT)
+            else if (L01F02 == UserType.PATIENT)
             {
-                EmergencyContact = string.IsNullOrWhiteSpace(EmergencyContact) ? null : EmergencyContact.Trim();
-                Allergies = string.IsNullOrWhiteSpace(Allergies) ? null : Allergies.Trim();
+                L02F03 = string.IsNullOrWhiteSpace(L02F03) ? null : L02F03.Trim();
+                L02F04 = string.IsNullOrWhiteSpace(L02F04) ? null : L02F04.Trim();
 
-                if (EmergencyContact != null && !System.Text.RegularExpressions.Regex.IsMatch(EmergencyContact, @"^[0-9]{10}$"))
+                if (L02F03 != null && !System.Text.RegularExpressions.Regex.IsMatch(L02F03, @"^[0-9]{10}$"))
                 {
                     yield return new ValidationResult(
                         "Emergency contact must be exactly 10 digits when provided.",
-                        new[] { nameof(EmergencyContact) });
+                        new[] { nameof(L02F03) });
                 }
 
-                if (Allergies != null && Allergies.Length < 3)
+                if (L02F04 != null && L02F04.Length < 3)
                 {
                     yield return new ValidationResult(
                         "Allergies must be at least 3 characters when provided.",
-                        new[] { nameof(Allergies) });
+                        new[] { nameof(L02F04) });
                 }
 
-                Specialization = null;
-                LicenseNumber = null;
-                YearsExperience = null;
+                L03F03 = null;
+                L03F04 = null;
+                L03F05 = null;
             }
         }
 

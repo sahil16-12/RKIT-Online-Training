@@ -63,11 +63,11 @@ namespace backend.Services
             TBL02? patient = null;
             TBL03? doctor = null;
            
-            if (request.UserType == UserType.PATIENT)
+            if (request.L01F02 == UserType.PATIENT)
             {
                 patient = _reflectionMapper.Map<SignupRequest, TBL02>(request);
             }
-            else if (request.UserType == UserType.DOCTOR)
+            else if (request.L01F02 == UserType.DOCTOR)
             {
                 doctor = _reflectionMapper.Map<SignupRequest, TBL03>(request);
             }
@@ -91,7 +91,7 @@ namespace backend.Services
                 throw new AppException("Invalid signup workflow state.", StatusCodes.Status400BadRequest);
             }
 
-            TBL01? existingUser = await _userRepository.FindUserByEmailAsync(_signupState.Request.Email);
+            TBL01? existingUser = await _userRepository.FindUserByEmailAsync(_signupState.Request.L01F04);
             if (existingUser != null)
             {
                 throw new AppException("Email already registered.", StatusCodes.Status409Conflict);
@@ -108,12 +108,12 @@ namespace backend.Services
 
             int userId = await _userRepository.CreateUserAsync(_signupState.User);
 
-            if (_signupState.Request.UserType == UserType.PATIENT && _signupState.Patient != null)
+            if (_signupState.Request.L01F02 == UserType.PATIENT && _signupState.Patient != null)
             {
                 _signupState.Patient.L02F02 = userId;
                 await _userRepository.CreatePatientAsync(_signupState.Patient);
             }
-            else if (_signupState.Request.UserType == UserType.DOCTOR && _signupState.Doctor != null)
+            else if (_signupState.Request.L01F02 == UserType.DOCTOR && _signupState.Doctor != null)
             {
                 _signupState.Doctor.L03F02 = userId;
                 await _userRepository.CreateDoctorAsync(_signupState.Doctor);
@@ -125,14 +125,14 @@ namespace backend.Services
         /// <inheritdoc/>
         public async Task<LoginResponse> LoginAsync(LoginRequest request)
         {
-            TBL01? user = await _userRepository.FindUserByEmailAsync(request.Email);
+            TBL01? user = await _userRepository.FindUserByEmailAsync(request.L01F04);
 
             if (user == null)
             {
                 throw new AppException("Invalid credentials.", StatusCodes.Status401Unauthorized);
             }
 
-            if (user.L01F02 != request.UserType)
+            if (user.L01F02 != request.L01F02)
             {
                 throw new AppException(
                     $"You are registered as {user.L01F02}. Please login as {user.L01F02}.",

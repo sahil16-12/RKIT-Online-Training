@@ -39,43 +39,18 @@ namespace backend.Mapping
             Type sourceType = source.GetType();
             Type destinationType = destination.GetType();
 
-            PropertyInfo[] sourceProperties = sourceType.GetProperties(); // Will return private and instance properties of object
-            PropertyInfo[] destinationProperties = destinationType.GetProperties();
+            PropertyInfo[] sourceProperties = sourceType.GetProperties(BindingFlags.Public | BindingFlags.Instance);
+            PropertyInfo[] destinationProperties = destinationType.GetProperties(BindingFlags.Public | BindingFlags.Instance);
 
+            // Build lookup for source properties by name
             Dictionary<string, PropertyInfo> sourceByName = sourceProperties
-                .ToDictionary(property => property.Name, StringComparer.OrdinalIgnoreCase);
+                .Where(p => p.CanRead)
+                .ToDictionary(p => p.Name, StringComparer.OrdinalIgnoreCase);
 
-            Dictionary<string, PropertyInfo> destinationByName = destinationProperties
-                .Where(property => property.CanWrite)
-                .ToDictionary(property => property.Name, StringComparer.OrdinalIgnoreCase);
-
-            //Destination driven mapping
-            foreach (PropertyInfo destinationProperty in destinationProperties.Where(property => property.CanWrite))
+            // Map properties by matching names
+            foreach (PropertyInfo destinationProperty in destinationProperties.Where(p => p.CanWrite))
             {
-                string sourceName = destinationProperty.GetCustomAttribute<MapPropertyAttribute>()?.PropertyName
-                    ?? destinationProperty.Name;
-
-                if (sourceByName.TryGetValue(sourceName, out PropertyInfo? sourceProperty) && sourceProperty.CanRead)
-                {
-                    object? sourceValue = sourceProperty.GetValue(source);
-                    if (TryConvertValue(sourceValue, destinationProperty.PropertyType, out object? convertedValue))
-                    {
-                        destinationProperty.SetValue(destination, convertedValue);
-                    }
-                }
-            }
-
-            //Source driven mapping 
-            foreach (PropertyInfo sourceProperty in sourceProperties.Where(property => property.CanRead))
-            {
-                string? destinationName = sourceProperty.GetCustomAttribute<MapPropertyAttribute>()?.PropertyName;
-
-                if (string.IsNullOrWhiteSpace(destinationName))
-                {
-                    continue;
-                }
-
-                if (destinationByName.TryGetValue(destinationName, out PropertyInfo? destinationProperty))
+                if (sourceByName.TryGetValue(destinationProperty.Name, out PropertyInfo? sourceProperty))
                 {
                     object? sourceValue = sourceProperty.GetValue(source);
                     if (TryConvertValue(sourceValue, destinationProperty.PropertyType, out object? convertedValue))

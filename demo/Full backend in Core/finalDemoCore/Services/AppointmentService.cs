@@ -88,7 +88,7 @@ namespace backend.Services
         public Task<TBL04> CreateAppointmentPresaveAsync(int patientUserId, CreateAppointmentRequest request)
         {
             TBL04 appointment = _reflectionMapper.Map<CreateAppointmentRequest, TBL04>(request);
-            DateTime normalizedAppointmentUtc = DateTime.SpecifyKind(request.AppointmentAtUtc, DateTimeKind.Utc);
+            DateTime normalizedAppointmentUtc = DateTime.SpecifyKind(request.L04F04, DateTimeKind.Utc);
 
             appointment.L04F02 = patientUserId;
             appointment.L04F04 = normalizedAppointmentUtc;
@@ -120,7 +120,7 @@ namespace backend.Services
                 throw new AppException("Patient profile not found.", StatusCodes.Status400BadRequest);
             }
 
-            bool doctorExists = await _appointmentRepository.DoesDoctorExistAsync(_createAppointmentState.Request.DoctorUserId);
+            bool doctorExists = await _appointmentRepository.DoesDoctorExistAsync(_createAppointmentState.Request.L04F03);
             if (!doctorExists)
             {
                 throw new AppException("Doctor not found.", StatusCodes.Status404NotFound);
@@ -133,7 +133,7 @@ namespace backend.Services
             }
 
             bool isDoctorSlotOccupied = await _appointmentRepository
-                .IsDoctorSlotOccupiedAsync(_createAppointmentState.Request.DoctorUserId, normalizedAppointmentUtc);
+                .IsDoctorSlotOccupiedAsync(_createAppointmentState.Request.L04F03, normalizedAppointmentUtc);
             if (isDoctorSlotOccupied)
             {
                 throw new AppException("Selected doctor slot is not available.", StatusCodes.Status400BadRequest);
@@ -142,7 +142,7 @@ namespace backend.Services
             bool hasDuplicateAppointment = await _appointmentRepository
                 .IsPatientDuplicateAppointmentAsync(
                     _createAppointmentState.PatientUserId,
-                    _createAppointmentState.Request.DoctorUserId,
+                    _createAppointmentState.Request.L04F03,
                     normalizedAppointmentUtc);
             if (hasDuplicateAppointment)
             {
@@ -232,7 +232,7 @@ namespace backend.Services
             _decideAppointmentState.Appointment.L04F06 = _decideAppointmentState.Request.Decision == AppointmentDecisionAction.APPROVE
                 ? AppointmentStatus.APPROVED
                 : AppointmentStatus.DECLINED;
-            _decideAppointmentState.Appointment.L04F07 = _decideAppointmentState.Request.DoctorNotes;
+            _decideAppointmentState.Appointment.L04F07 = _decideAppointmentState.Request.L04F07;
             _decideAppointmentState.Appointment.L04F09 = DateTime.UtcNow;
 
             await _appointmentRepository.UpdateAppointmentAsync(_decideAppointmentState.Appointment);

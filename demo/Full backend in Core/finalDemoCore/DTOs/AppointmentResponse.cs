@@ -1,4 +1,4 @@
-using backend.Mapping;
+using System.Text.Json.Serialization;
 using backend.Models;
 
 namespace backend.DTOs
@@ -13,56 +13,56 @@ namespace backend.DTOs
         /// <summary>
         /// Gets or sets appointment identifier.
         /// </summary>
-        [MapProperty("L04F01")]
-        public int AppointmentId { get; set; }
+        [JsonPropertyName("AppointmentId")]
+        public int L04F01 { get; set; }
 
         /// <summary>
         /// Gets or sets patient user identifier.
         /// </summary>
-        [MapProperty("L04F02")]
-        public int PatientUserId { get; set; }
+        [JsonPropertyName("PatientUserId")]
+        public int L04F02 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor user identifier.
         /// </summary>
-        [MapProperty("L04F03")]
-        public int DoctorUserId { get; set; }
+        [JsonPropertyName("DoctorUserId")]
+        public int L04F03 { get; set; }
 
         /// <summary>
         /// Gets or sets appointment UTC date and time.
         /// </summary>
-        [MapProperty("L04F04")]
-        public DateTime AppointmentAtUtc { get; set; }
+        [JsonPropertyName("AppointmentAtUtc")]
+        public DateTime L04F04 { get; set; }
 
         /// <summary>
         /// Gets or sets appointment reason.
         /// </summary>
-        [MapProperty("L04F05")]
-        public string Reason { get; set; } = string.Empty;
+        [JsonPropertyName("Reason")]
+        public string L04F05 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets appointment status.
         /// </summary>
-        [MapProperty("L04F06")]
-        public AppointmentStatus Status { get; set; }
+        [JsonPropertyName("Status")]
+        public AppointmentStatus L04F06 { get; set; }
 
         /// <summary>
         /// Gets or sets doctor notes.
         /// </summary>
-        [MapProperty("L04F07")]
-        public string? DoctorNotes { get; set; }
+        [JsonPropertyName("DoctorNotes")]
+        public string? L04F07 { get; set; }
 
         /// <summary>
         /// Gets or sets appointment creation UTC date and time.
         /// </summary>
-        [MapProperty("L04F08")]
-        public DateTime CreatedAtUtc { get; set; }
+        [JsonPropertyName("CreatedAtUtc")]
+        public DateTime L04F08 { get; set; }
 
         /// <summary>
         /// Gets or sets appointment update UTC date and time.
         /// </summary>
-        [MapProperty("L04F09")]
-        public DateTime UpdatedAtUtc { get; set; }
+        [JsonPropertyName("UpdatedAtUtc")]
+        public DateTime L04F09 { get; set; }
 
         #endregion
     }

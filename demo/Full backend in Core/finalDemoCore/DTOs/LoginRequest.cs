@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 using backend.Models;
 
 namespace backend.DTOs
@@ -15,7 +16,8 @@ namespace backend.DTOs
         /// </summary>
         [Required(ErrorMessage = "Email is required.")]
         [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
-        public string Email { get; set; } = string.Empty;
+        [JsonPropertyName("Email")]
+        public string L01F04 { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets user password text.
@@ -28,7 +30,8 @@ namespace backend.DTOs
         /// </summary>
         [Required(ErrorMessage = "Please select a user type.")]
         [EnumDataType(typeof(UserType), ErrorMessage = "Please select a valid user type.")]
-        public UserType UserType { get; set; }
+        [JsonPropertyName("UserType")]
+        public UserType L01F02 { get; set; }
 
         #endregion
     }

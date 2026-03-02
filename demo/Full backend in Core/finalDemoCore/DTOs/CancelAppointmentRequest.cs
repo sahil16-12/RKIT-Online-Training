@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using backend.Mapping;
+using System.Text.Json.Serialization;
 
 namespace backend.DTOs
 {
@@ -16,8 +16,8 @@ namespace backend.DTOs
         [Required(ErrorMessage = "Cancellation note is required.")]
         [MinLength(3, ErrorMessage = "Cancellation note must be at least 3 characters.")]
         [MaxLength(500, ErrorMessage = "Cancellation note cannot exceed 500 characters.")]
-        [MapProperty("L04F07")]
-        public string DoctorNotes { get; set; } = string.Empty;
+        [JsonPropertyName("DoctorNotes")]
+        public string L04F07 { get; set; } = string.Empty;
 
         #endregion
     }
