@@ -69,6 +69,7 @@ namespace backend.Controllers
         {
             CurrentUserContext currentUser = HttpContext.GetCurrentUserContext();
 
+            ////HAVE TO ADD TTHIS IN VALIDATEEFOREPRESAVE
             if (currentUser.Role != UserType.PATIENT)
             {
                 throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);

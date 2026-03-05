@@ -39,8 +39,8 @@ namespace backend.Mapping
             Type sourceType = source.GetType();
             Type destinationType = destination.GetType();
 
-            PropertyInfo[] sourceProperties = sourceType.GetProperties(BindingFlags.Public | BindingFlags.Instance);
-            PropertyInfo[] destinationProperties = destinationType.GetProperties(BindingFlags.Public | BindingFlags.Instance);
+            PropertyInfo[] sourceProperties = sourceType.GetProperties();
+            PropertyInfo[] destinationProperties = destinationType.GetProperties();
 
             // Build lookup for source properties by name
             Dictionary<string, PropertyInfo> sourceByName = sourceProperties
@@ -52,68 +52,9 @@ namespace backend.Mapping
             {
                 if (sourceByName.TryGetValue(destinationProperty.Name, out PropertyInfo? sourceProperty))
                 {
-                    object? sourceValue = sourceProperty.GetValue(source);
-                    if (TryConvertValue(sourceValue, destinationProperty.PropertyType, out object? convertedValue))
-                    {
-                        destinationProperty.SetValue(destination, convertedValue);
-                    }
+                    object sourceValue = sourceProperty.GetValue(source);
+                    destinationProperty.SetValue(destination, sourceValue);
                 }
-            }
-        }
-
-        #endregion
-
-        #region Private Methods
-
-        /// <summary>
-        /// Attempts to convert source value into destination type.
-        /// </summary>
-        /// <param name="value">The source value.</param>
-        /// <param name="destinationType">The destination property type.</param>
-        /// <param name="convertedValue">The converted output value.</param>
-        /// <returns>True when conversion succeeds; otherwise false.</returns>
-        private bool TryConvertValue(object? value, Type destinationType, out object? convertedValue)
-        {
-            convertedValue = null;
-
-            if (value == null)
-            {
-                if (!destinationType.IsValueType || Nullable.GetUnderlyingType(destinationType) != null)
-                {
-                    return true;
-                }
-
-                return false;
-            }
-
-            Type targetType = Nullable.GetUnderlyingType(destinationType) ?? destinationType;
-
-            if (targetType.IsAssignableFrom(value.GetType()))
-            {
-                convertedValue = value;
-                return true;
-            }
-
-            try
-            {
-                if (targetType.IsEnum)
-                {
-                    if (value is string enumText)
-                    {
-                        convertedValue = Enum.Parse(targetType, enumText, true);
-                        return true;
-                    }
-
-                    convertedValue = Enum.ToObject(targetType, value);
-                    return true;
-                }
-
-                convertedValue = Convert.ChangeType(value, targetType);
-                return true;
-            }
-            catch
-            {
-                return false;
             }
         }
 
