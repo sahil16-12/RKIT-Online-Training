@@ -76,7 +76,7 @@ namespace backend.Services
                 throw new AppException("Patient profile not found.", StatusCodes.Status400BadRequest);
             }
 
-            List<TBL03> doctors = await GetAllDoctorsAsync(page, pageSize);
+            List<TBL03> doctors = await _appointmentRepository.GetAllDoctorsAsync();
             List<AvailableDoctorResponse> doctorResponses = new List<AvailableDoctorResponse>();
 
             foreach (TBL03 doctor in doctors)
@@ -312,6 +312,94 @@ namespace backend.Services
             await UpdateAppointmentAsync(_cancelAppointmentState.Appointment);
             _cancelAppointmentState = null;
         }
+
+        /// <inheritdoc/>
+        public async Task<List<TBL03>> GetAllDoctorsAsync()
+        {
+            //using var db = _dbFactory.Open();
+            //var doctors = await db.SelectAsync<TBL03>();
+
+            //if (doctors.Count == 0)
+            //    return doctors;
+
+            //var userIds = doctors.Select(d => d.L03F02).ToList();
+            //var users = await db.SelectAsync<TBL01>(u => Sql.In(u.L01F01, userIds));
+            //var userDict = users.ToDictionary(u => u.L01F01);
+
+            //foreach (var doctor in doctors)
+            //{
+            //    if (userDict.TryGetValue(doctor.L03F02, out var user))
+            //        doctor.L03F07 = user;
+            //}
+
+            //////HAVE TO SEE SYNTAX OF JOIN
+            ////List<TBL03> availDoctors = db.From<TBL03>().Join()
+
+
+            //return doctors;
+
+            using var db = _dbFactory.Open();
+
+            var q = db.From<TBL03>().
+                Join<TBL03, TBL01>((d, u) => d.L03F02 == u.L01F01);
+
+            var doctors = await db.SelectMultiAsync<TBL03, TBL01>(q);
+
+            return doctors.Select(x =>
+            {
+                var doctor = x.Item1;
+                doctor.L03F07 = x.Item2;
+                return doctor;
+            }).ToList();
+
+
+        }
+
+        /// <inheritdoc/>
+        public async Task<TBL01?> FindUserByIdAsync(int userId)
+        {
+            using var db = _dbFactory.Open();
+            return await db.SingleByIdAsync<TBL01>(userId);
+        }
+
+        /// <inheritdoc/>
+        public async Task<bool> DoesDoctorExistAsync(int doctorUserId)
+        {
+            using var db = _dbFactory.Open();
+            return await db.ExistsAsync<TBL03>(d => d.L03F02 == doctorUserId);
+        }
+
+        /// <inheritdoc/>
+        public async Task<int> CreateAppointmentAsync(TBL04 appointment)
+        {
+            using var db = _dbFactory.Open();
+            return (int)await db.InsertAsync(appointment, selectIdentity: true);
+        }
+
+        /// <inheritdoc/>
+        public async Task<TBL04?> FindAppointmentByIdAsync(int appointmentId)
+        {
+            using var db = _dbFactory.Open();
+            return await db.SingleByIdAsync<TBL04>(appointmentId);
+        }
+
+        /// <inheritdoc/>
+        public async Task<List<TBL04>> GetDoctorAppointmentsByStatusAsync(int doctorUserId, AppointmentStatus status)
+        {
+            using var db = _dbFactory.Open();
+            var query = db.From<TBL04>()
+                .Where(a => a.L04F03 == doctorUserId && a.L04F06 == status)
+                .OrderBy(a => a.L04F04);
+            return await db.SelectAsync(query);
+        }
+
+        /// <inheritdoc/>
+        public async Task UpdateAppointmentAsync(TBL04 appointment)
+        {
+            using var db = _dbFactory.Open();
+            await db.UpdateAsync(appointment);
+        }
+
 
         /// <summary>
         /// Retrieves all doctors with pagination support.
