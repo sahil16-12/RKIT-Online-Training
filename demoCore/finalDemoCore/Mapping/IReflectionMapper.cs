@@ -1,4 +1,4 @@
-namespace backend.Mapping
+﻿namespace backend.Mapping
 {
     /// <summary>
     /// Defines reflection-based object mapping operations.

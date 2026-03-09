@@ -1,4 +1,5 @@
 using backend.DTOs;
+using backend.Models;
 
 namespace backend.Services
 {
@@ -13,8 +14,22 @@ namespace backend.Services
         /// Retrieves available doctors for patient booking.
         /// </summary>
         /// <param name="patientUserId">The patient user identifier.</param>
+        /// <param name="page">The page number (default: 1).</param>
+        /// <param name="pageSize">The number of records per page (default: 10).</param>
         /// <returns>A list of available doctors.</returns>
-        Task<List<AvailableDoctorResponse>> GetAvailableDoctorsAsync(int patientUserId);
+        Task<List<AvailableDoctorResponse>> GetAvailableDoctorsAsync(int patientUserId, int page = 1, int pageSize = 10);
+
+        /// <summary>
+        /// Validates patient role for appointment booking workflow.
+        /// </summary>
+        /// <param name="userType">The user type.</param>
+        void PatientValidatePreSaveAsync(UserType userType);
+
+        /// <summary>
+        /// Validates doctor role for appointment booking workflow.
+        /// </summary>
+        /// <param name="userType">The user type.</param>
+        void DoctorValidatePreSaveAsync(UserType userType);
 
         /// <summary>
         /// Prepares appointment creation workflow by mapping request DTO to entity.

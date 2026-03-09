@@ -5,7 +5,7 @@ namespace backend.Models
     /// <summary>
     /// Represents patient detail data table.
     /// </summary>
-    [Alias("patients")]
+ 
     public class TBL02
     {
         #region Public Properties
@@ -15,7 +15,7 @@ namespace backend.Models
         /// </summary>
         [PrimaryKey]
         [AutoIncrement]
-        [Alias("id")]
+  
         public int L02F01 { get; set; }
 
         /// <summary>
@@ -29,19 +29,19 @@ namespace backend.Models
         /// <summary>
         /// Represents emergency contact number.
         /// </summary>
-        [Alias("emergency_contact")]
+      
         public string? L02F03 { get; set; }
 
         /// <summary>
         /// Represents patient allergy notes.
         /// </summary>
-        [Alias("allergies")]
+
         public string? L02F04 { get; set; }
 
         /// <summary>
         /// Represents patient record creation UTC date and time.
         /// </summary>
-        [Alias("created_at")]
+
         public DateTime L02F05 { get; set; } = DateTime.UtcNow;
 
         /// <summary>

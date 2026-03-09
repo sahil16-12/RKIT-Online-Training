@@ -3,6 +3,9 @@ using backend.Exceptions;
 using backend.Mapping;
 using backend.Models;
 using backend.Repositories;
+using ServiceStack;
+using ServiceStack.Data;
+using ServiceStack.OrmLite;
 
 namespace backend.Services
 {
@@ -17,6 +20,12 @@ namespace backend.Services
         /// Represents appointment repository dependency.
         /// </summary>
         private readonly IAppointmentRepository _appointmentRepository;
+
+
+        /// <summary>
+        /// Represents database connection factory.
+        /// </summary>
+        private readonly IDbConnectionFactory _dbFactory;
 
         /// <summary>
         /// Represents reflection mapper dependency.
@@ -47,10 +56,11 @@ namespace backend.Services
         /// </summary>
         /// <param name="appointmentRepository">The appointment repository.</param>
         /// <param name="reflectionMapper">The reflection mapper.</param>
-        public AppointmentService(IAppointmentRepository appointmentRepository, IReflectionMapper reflectionMapper)
+        public AppointmentService(IAppointmentRepository appointmentRepository, IReflectionMapper reflectionMapper, IDbConnectionFactory dbfactory)
         {
             _appointmentRepository = appointmentRepository;
             _reflectionMapper = reflectionMapper;
+            _dbFactory = dbfactory;
         }
 
         #endregion
@@ -58,15 +68,15 @@ namespace backend.Services
         #region Public Methods
 
         /// <inheritdoc/>
-        public async Task<List<AvailableDoctorResponse>> GetAvailableDoctorsAsync(int patientUserId)
+        public async Task<List<AvailableDoctorResponse>> GetAvailableDoctorsAsync(int patientUserId, int page = 1, int pageSize = 10)
         {
-            TBL01? patient = await _appointmentRepository.FindUserByIdAsync(patientUserId);
+            TBL01? patient = await FindUserByIdAsync(patientUserId);
             if (patient == null || patient.L01F02 != UserType.PATIENT)
             {
                 throw new AppException("Patient profile not found.", StatusCodes.Status400BadRequest);
             }
 
-            List<TBL03> doctors = await _appointmentRepository.GetAllDoctorsAsync();
+            List<TBL03> doctors = await GetAllDoctorsAsync(page, pageSize);
             List<AvailableDoctorResponse> doctorResponses = new List<AvailableDoctorResponse>();
 
             foreach (TBL03 doctor in doctors)
@@ -82,6 +92,18 @@ namespace backend.Services
             }
 
             return doctorResponses;
+        }
+        /// <inheritdoc/>
+        public void PatientValidatePreSaveAsync(UserType userType){
+            if(userType != UserType.PATIENT){
+                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
+            }
+        }
+        /// <inheritdoc/>
+        public void DoctorValidatePreSaveAsync(UserType userType){
+            if(userType != UserType.DOCTOR){
+                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
+            }
         }
 
         /// <inheritdoc/>
@@ -114,13 +136,13 @@ namespace backend.Services
                 throw new AppException("Invalid appointment workflow state.", StatusCodes.Status400BadRequest);
             }
 
-            TBL01? patient = await _appointmentRepository.FindUserByIdAsync(_createAppointmentState.PatientUserId);
+            TBL01? patient = await FindUserByIdAsync(_createAppointmentState.PatientUserId);
             if (patient == null || patient.L01F02 != UserType.PATIENT)
             {
                 throw new AppException("Patient profile not found.", StatusCodes.Status400BadRequest);
             }
 
-            bool doctorExists = await _appointmentRepository.DoesDoctorExistAsync(_createAppointmentState.Request.L04F03);
+            bool doctorExists = await DoesDoctorExistAsync(_createAppointmentState.Request.L04F03);
             if (!doctorExists)
             {
                 throw new AppException("Doctor not found.", StatusCodes.Status404NotFound);
@@ -153,15 +175,12 @@ namespace backend.Services
         /// <inheritdoc/>
         public async Task<AppointmentResponse> CreateAppointmentSaveAsync()
         {
-            if (_createAppointmentState == null)
-            {
-                throw new AppException("Invalid appointment workflow state.", StatusCodes.Status400BadRequest);
-            }
-
             _createAppointmentState.Appointment.L04F08 = DateTime.UtcNow;
             _createAppointmentState.Appointment.L04F09 = DateTime.UtcNow;
 
-            await _appointmentRepository.CreateAppointmentAsync(_createAppointmentState.Appointment);
+            int appointmentId = await CreateAppointmentAsync(_createAppointmentState.Appointment);
+
+            _createAppointmentState.Appointment.L04F01 = appointmentId;
 
             AppointmentResponse response = _reflectionMapper.Map<TBL04, AppointmentResponse>(_createAppointmentState.Appointment);
             _createAppointmentState = null;
@@ -172,14 +191,13 @@ namespace backend.Services
         /// <inheritdoc/>
         public async Task<List<AppointmentResponse>> GetPendingAppointmentsAsync(int doctorUserId)
         {
-            bool doctorExists = await _appointmentRepository.DoesDoctorExistAsync(doctorUserId);
+            bool doctorExists = await DoesDoctorExistAsync(doctorUserId);
             if (!doctorExists)
             {
                 throw new AppException("Doctor profile not found.", StatusCodes.Status400BadRequest);
             }
 
-            List<TBL04> appointments = await _appointmentRepository
-                .GetDoctorAppointmentsByStatusAsync(doctorUserId, AppointmentStatus.PENDING);
+            List<TBL04> appointments = await GetDoctorAppointmentsByStatusAsync(doctorUserId, AppointmentStatus.PENDING);
 
             List<AppointmentResponse> responses = appointments
                 .Select(appointment => _reflectionMapper.Map<TBL04, AppointmentResponse>(appointment))
@@ -235,7 +253,7 @@ namespace backend.Services
             _decideAppointmentState.Appointment.L04F07 = _decideAppointmentState.Request.L04F07;
             _decideAppointmentState.Appointment.L04F09 = DateTime.UtcNow;
 
-            await _appointmentRepository.UpdateAppointmentAsync(_decideAppointmentState.Appointment);
+            await UpdateAppointmentAsync(_decideAppointmentState.Appointment);
             _decideAppointmentState = null;
         }
 
@@ -291,13 +309,93 @@ namespace backend.Services
             _cancelAppointmentState.Appointment.L04F06 = AppointmentStatus.CANCELLED;
             _cancelAppointmentState.Appointment.L04F09 = DateTime.UtcNow;
 
-            await _appointmentRepository.UpdateAppointmentAsync(_cancelAppointmentState.Appointment);
+            await UpdateAppointmentAsync(_cancelAppointmentState.Appointment);
             _cancelAppointmentState = null;
         }
 
-        #endregion
+        /// <summary>
+        /// Retrieves all doctors with pagination support.
+        /// </summary>
+        /// <param name="page">The page number (1-based).</param>
+        /// <param name="pageSize">The number of records per page.</param>
+        /// <returns>A paginated list of doctors.</returns>
+        public async Task<List<TBL03>> GetAllDoctorsAsync(int page = 1, int pageSize = 10)
+        {
+            if (page < 1)
+            {
+                throw new AppException("Page number must be greater than 0.", StatusCodes.Status400BadRequest);
+            }
 
-        #region Private Methods
+            if (pageSize < 1)
+            {
+                throw new AppException("Page size must be greater than 0.", StatusCodes.Status400BadRequest);
+            }
+
+            using IDbConnection db = _dbFactory.Open();
+
+            int skip = (page - 1) * pageSize;
+
+            SqlExpression<TBL03> q = db.From<TBL03>()
+                .Join<TBL03, TBL01>((d, u) => d.L03F02 == u.L01F01)
+                .Skip(skip)
+                .Limit(pageSize);
+
+            List<Tuple<TBL03, TBL01>> doctors = await db.SelectMultiAsync<TBL03, TBL01>(q);
+
+            return doctors.Select(x =>
+            {
+                TBL03 doctor = x.Item1;
+                doctor.L03F07 = x.Item2;
+                return doctor;
+            }).ToList();
+
+
+        }
+
+        /// <inheritdoc/>
+        public async Task<TBL01?> FindUserByIdAsync(int userId)
+        {
+            using IDbConnection db = _dbFactory.Open();
+            return await db.SingleByIdAsync<TBL01>(userId);
+        }
+
+        /// <inheritdoc/>
+        public async Task<bool> DoesDoctorExistAsync(int doctorUserId)
+        {
+            using IDbConnection db = _dbFactory.Open();
+            return await db.ExistsAsync<TBL03>(d => d.L03F02 == doctorUserId);
+        }
+
+        /// <inheritdoc/>
+        public async Task<int> CreateAppointmentAsync(TBL04 appointment)
+        {
+            using IDbConnection db = _dbFactory.Open();
+            return (int)await db.InsertAsync(appointment, selectIdentity: true);
+        }
+
+        /// <inheritdoc/>
+        public async Task<TBL04?> FindAppointmentByIdAsync(int appointmentId)
+        {
+            using IDbConnection db = _dbFactory.Open();
+            return await db.SingleByIdAsync<TBL04>(appointmentId);
+        }
+
+        /// <inheritdoc/>
+        public async Task<List<TBL04>> GetDoctorAppointmentsByStatusAsync(int doctorUserId, AppointmentStatus status)
+        {
+            using IDbConnection db = _dbFactory.Open();
+            SqlExpression<TBL04> query = db.From<TBL04>()
+                .Where(a => a.L04F03 == doctorUserId && a.L04F06 == status)
+                .OrderBy(a => a.L04F04);
+            return await db.SelectAsync(query);
+        }
+
+        /// <inheritdoc/>
+        public async Task UpdateAppointmentAsync(TBL04 appointment)
+        {
+            using IDbConnection db = _dbFactory.Open();
+            await db.UpdateAsync(appointment);
+        }
 
         /// <summary>
         /// Validates doctor identity and ownership for a target appointment.
@@ -307,13 +405,13 @@ namespace backend.Services
         /// <returns>A tuple containing appointment entity or validation error.</returns>
         private async Task<TBL04> ValidateDoctorAndGetOwnedAppointmentAsync(int doctorUserId, int appointmentId)
         {
-            bool doctorExists = await _appointmentRepository.DoesDoctorExistAsync(doctorUserId);
+            bool doctorExists = await DoesDoctorExistAsync(doctorUserId);
             if (!doctorExists)
             {
                 throw new AppException("Doctor profile not found.", StatusCodes.Status400BadRequest);
             }
 
-            TBL04? appointment = await _appointmentRepository.FindAppointmentByIdAsync(appointmentId);
+            TBL04? appointment = await FindAppointmentByIdAsync(appointmentId);
             if (appointment == null)
             {
                 throw new AppException("Appointment not found.", StatusCodes.Status404NotFound);

@@ -43,18 +43,17 @@ namespace backend.Controllers
         /// <summary>
         /// Retrieves available doctors for appointment booking.
         /// </summary>
+        /// <param name="page">The page number (default: 1).</param>
+        /// <param name="pageSize">The number of records per page (default: 10).</param>
         /// <returns>A list of available doctors.</returns>
         [HttpGet("doctors/available")]
-        public async Task<IActionResult> GetAvailableDoctors()
+        public async Task<IActionResult> GetAvailableDoctors([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             CurrentUserContext currentUser = HttpContext.GetCurrentUserContext();
 
-            if (currentUser.Role != UserType.PATIENT)
-            {
-                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
-            }
+            _appointmentService.PatientValidatePreSaveAsync(currentUser.Role);
 
-            List<AvailableDoctorResponse> response = await _appointmentService.GetAvailableDoctorsAsync(currentUser.UserId);
+            List<AvailableDoctorResponse> response = await _appointmentService.GetAvailableDoctorsAsync(currentUser.UserId, page, pageSize);
 
             return Ok(response);
         }
@@ -68,12 +67,7 @@ namespace backend.Controllers
         public async Task<IActionResult> CreateAppointment([FromBody] CreateAppointmentRequest request)
         {
             CurrentUserContext currentUser = HttpContext.GetCurrentUserContext();
-
-            if (currentUser.Role != UserType.PATIENT)
-            {
-                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
-            }
-
+            _appointmentService.PatientValidatePreSaveAsync(currentUser.Role);
             await _appointmentService.CreateAppointmentPresaveAsync(currentUser.UserId, request);
             await _appointmentService.CreateAppointmentValidateAsync();
             AppointmentResponse response = await _appointmentService.CreateAppointmentSaveAsync();
@@ -94,10 +88,7 @@ namespace backend.Controllers
         {
             CurrentUserContext currentUser = HttpContext.GetCurrentUserContext();
 
-            if (currentUser.Role != UserType.DOCTOR)
-            {
-                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
-            }
+            _appointmentService.DoctorValidatePreSaveAsync(currentUser.Role);
 
             List<AppointmentResponse> response = await _appointmentService.GetPendingAppointmentsAsync(currentUser.UserId);
 
@@ -115,10 +106,7 @@ namespace backend.Controllers
         {
             CurrentUserContext currentUser = HttpContext.GetCurrentUserContext();
 
-            if (currentUser.Role != UserType.DOCTOR)
-            {
-                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
-            }
+            _appointmentService.DoctorValidatePreSaveAsync(currentUser.Role);
 
             await _appointmentService.DecideAppointmentPresaveAsync(currentUser.UserId, appointmentId, request);
             await _appointmentService.DecideAppointmentValidateAsync();
@@ -138,10 +126,7 @@ namespace backend.Controllers
         {
             CurrentUserContext currentUser = HttpContext.GetCurrentUserContext();
 
-            if (currentUser.Role != UserType.DOCTOR)
-            {
-                throw new AppException("You are not authorized to access this resource.", StatusCodes.Status403Forbidden);
-            }
+            _appointmentService.DoctorValidatePreSaveAsync(currentUser.Role);
 
             await _appointmentService.CancelFutureAppointmentPresaveAsync(currentUser.UserId, appointmentId, request);
             await _appointmentService.CancelFutureAppointmentValidateAsync();
